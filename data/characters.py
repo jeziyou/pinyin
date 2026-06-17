@@ -419,7 +419,7 @@ STORIES = [
 
 # 学习等级
 LEVELS = [
-    {"name": "初级", "name_en": "Beginner", "char_indices": [20, 21, 22, 23, 24, 25]},  # 数字和方位
+    {"name": "初级", "name_en": "Beginner", "char_indices": [19, 20, 21, 22, 23, 24]},  # 数字和方位
     {"name": "中级", "name_en": "Intermediate", "char_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8]},  # 自然和基础
     {"name": "高级", "name_en": "Advanced", "char_indices": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]},  # 动植物等
 ]

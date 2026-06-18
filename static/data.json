@@ -1,4 +1,10 @@
 {
+  "version": "3.0",
+  "total_chars": 84,
+  "total_stories": 12,
+  "total_reading": 10,
+  "total_radicals": 25,
+  "total_idioms": 25,
   "characters": [
     {
       "char": "日",
@@ -296,7 +302,7 @@
       "english": "Flower",
       "category": "植物",
       "emoji": "🌸",
-      "radical": "草",
+      "radical": "艹",
       "strokes": 7,
       "stroke_order": [
         "横",
@@ -327,7 +333,7 @@
       "english": "Grass",
       "category": "植物",
       "emoji": "🌿",
-      "radical": "草",
+      "radical": "艹",
       "strokes": 9,
       "stroke_order": [
         "横",
@@ -1914,114 +1920,17 @@
       "story_en": "Drink water, drink milk, drink juice. Drink more water for good health!",
       "words": [
         "喝水 hē shuǐ · Drink water",
-        "喝奶 hē nǎi · Drink milk",
-        "喝完 hē wán · Finish drinking",
-        "喝汤 hē tāng · Drink soup"
-      ]
-    },
-    {
-      "char": "看",
-      "pinyin": "kàn",
-      "english": "Look/See",
-      "category": "动作",
-      "emoji": "👀",
-      "radical": "目",
-      "strokes": 9,
-      "stroke_order": [
-        "撇",
-        "横",
-        "横",
-        "竖",
-        "横折",
-        "横",
-        "横",
-        "横",
-        "横"
-      ],
-      "origin": {
-        "oracle": "看",
-        "seal": "看",
-        "meaning": "手在目上表示看"
-      },
-      "story_cn": "看书、看电视、看风景。眼睛看世界！",
-      "story_en": "Read books, watch TV, see scenery. Eyes see the world!",
-      "words": [
-        "看书 kàn shū · Read book",
-        "看见 kàn jiàn · See",
-        "好看 hǎo kàn · Beautiful",
-        "看看 kàn kàn · Look"
-      ]
-    },
-    {
-      "char": "听",
-      "pinyin": "tīng",
-      "english": "Listen",
-      "category": "动作",
-      "emoji": "👂",
-      "radical": "口",
-      "strokes": 7,
-      "stroke_order": [
-        "竖",
-        "横折",
-        "横",
-        "撇",
-        "横",
-        "竖",
-        "点"
-      ],
-      "origin": {
-        "oracle": "听",
-        "seal": "听",
-        "meaning": "口加斤音表示听"
-      },
-      "story_cn": "听音乐、听故事、听老师讲课。耳朵听声音！",
-      "story_en": "Listen to music, hear stories, listen to teacher. Ears hear sounds!",
-      "words": [
-        "听歌 tīng gē · Listen to song",
-        "听话 tīng huà · Obedient",
-        "听见 tīng jiàn · Hear",
-        "好听 hǎo tīng · Pleasant"
-      ]
-    },
-    {
-      "char": "说",
-      "pinyin": "shuō",
-      "english": "Speak/Say",
-      "category": "动作",
-      "emoji": "🗣️",
-      "radical": "口",
-      "strokes": 9,
-      "stroke_order": [
-        "竖",
-        "横折",
-        "横",
-        "点",
-        "撇",
-        "竖",
-        "横折钩",
-        "竖",
-        "竖弯钩"
-      ],
-      "origin": {
-        "oracle": "说",
-        "seal": "说",
-        "meaning": "口加兑音表示说"
-      },
-      "story_cn": "说话要礼貌，说谢谢、说你好。嘴巴说话！",
-      "story_en": "Speak politely, say thank you, say hello. Mouth speaks!",
-      "words": [
-        "说话 shuō huà · Speak",
-        "听说 tīng shuō · Heard",
-        "说明 shuō míng · Explain",
-        "小说 xiǎo shuō · Novel"
+        "喝茶 hē chá · Drink tea",
+        "喝酒 hē jiǔ · Drink alcohol",
+        "喝药 hē yào · Take medicine"
       ]
     },
     {
       "char": "笑",
       "pinyin": "xiào",
-      "english": "Laugh/Smile",
-      "category": "动作",
-      "emoji": "😄",
+      "english": "Smile",
+      "category": "情感",
+      "emoji": "😊",
       "radical": "竹",
       "strokes": 10,
       "stroke_order": [
@@ -2032,31 +1941,31 @@
         "横",
         "点",
         "撇",
-        "横",
         "撇",
-        "捺"
+        "捺",
+        "点"
       ],
       "origin": {
         "oracle": "笑",
         "seal": "笑",
-        "meaning": "竹夭表示笑"
+        "meaning": "竹子下面有夭，表示开心"
       },
-      "story_cn": "开心就笑，微笑是最美的表情。笑一笑，十年少！",
-      "story_en": "Laugh when happy, smile is the most beautiful expression. Smile makes you younger!",
+      "story_cn": "微笑是最美的表情。每天笑一笑，心情好！",
+      "story_en": "Smile is the most beautiful expression. Smile every day, feel happy!",
       "words": [
         "微笑 wēi xiào · Smile",
-        "大笑 dà xiào · Laugh loud",
-        "笑话 xiào huà · Joke",
-        "笑一笑 xiào yī xiào · Smile"
+        "大笑 dà xiào · Laugh loudly",
+        "笑话 xiào hua · Joke",
+        "笑容 xiào róng · Smile"
       ]
     },
     {
       "char": "哭",
       "pinyin": "kū",
       "english": "Cry",
-      "category": "动作",
+      "category": "情感",
       "emoji": "😢",
-      "radical": "口",
+      "radical": "犬",
       "strokes": 10,
       "stroke_order": [
         "竖",
@@ -2066,22 +1975,22 @@
         "横折",
         "横",
         "撇",
-        "横",
-        "撇",
-        "捺"
+        "捺",
+        "点",
+        "点"
       ],
       "origin": {
         "oracle": "哭",
         "seal": "哭",
-        "meaning": "两个口加犬表示哭"
+        "meaning": "眼睛流泪表示哭"
       },
-      "story_cn": "伤心会哭，哭完要勇敢。小朋友不哭，要坚强！",
-      "story_en": "Cry when sad, be brave after crying. Children don't cry, be strong!",
+      "story_cn": "哭是表达伤心的方式。哭出来会好受一些。",
+      "story_en": "Crying is a way to express sadness. It feels better after crying.",
       "words": [
-        "哭泣 kū qì · Cry",
-        "大哭 dà kū · Cry loud",
-        "哭声 kū shēng · Crying sound",
-        "哭脸 kū liǎn · Crying face"
+        "哭声 kū shēng · Cry",
+        "哭泣 kū qì · Weep",
+        "哭脸 kū liǎn · Sad face",
+        "哭啼 kū tí · Whimper"
       ]
     },
     {
@@ -2090,199 +1999,128 @@
       "english": "Love",
       "category": "情感",
       "emoji": "❤️",
-      "radical": "心",
+      "radical": "爫",
       "strokes": 10,
       "stroke_order": [
         "撇",
         "点",
-        "撇",
         "点",
         "撇",
         "点",
-        "横钩",
-        "点",
-        "卧钩",
-        "点"
+        "横撇",
+        "横",
+        "撇",
+        "撇",
+        "捺"
       ],
       "origin": {
         "oracle": "爱",
         "seal": "爱",
-        "meaning": "心加受表示爱"
+        "meaning": "心中有喜爱的人"
       },
-      "story_cn": "我爱爸爸妈妈，我爱学习，我爱生活。爱是最美好的感情！",
-      "story_en": "I love mom and dad, I love learning, I love life. Love is the best feeling!",
+      "story_cn": "爱是温暖的感觉。我爱爸爸妈妈，我爱这个世界！",
+      "story_en": "Love is a warm feeling. I love my parents, I love the world!",
       "words": [
-        "爱心 ài xīn · Love heart",
-        "爱护 ài hù · Protect",
-        "可爱 kě ài · Cute",
-        "爱人 ài rén · Lover"
-      ]
-    },
-    {
-      "char": "想",
-      "pinyin": "xiǎng",
-      "english": "Think/Want",
-      "category": "情感",
-      "emoji": "💭",
-      "radical": "心",
-      "strokes": 13,
-      "stroke_order": [
-        "横",
-        "竖",
-        "撇",
-        "点",
-        "竖",
-        "横折",
-        "横",
-        "横",
-        "横",
-        "点",
-        "卧钩",
-        "点",
-        "点"
-      ],
-      "origin": {
-        "oracle": "想",
-        "seal": "想",
-        "meaning": "心加相表示想"
-      },
-      "story_cn": "我想去公园，我想吃冰淇淋。想就是心里希望。",
-      "story_en": "I want to go to park, I want ice cream. Think means hope in heart.",
-      "words": [
-        "想念 xiǎng niàn · Miss",
-        "想法 xiǎng fǎ · Idea",
-        "想要 xiǎng yào · Want",
-        "梦想 mèng xiǎng · Dream"
-      ]
-    },
-    {
-      "char": "怕",
-      "pinyin": "pà",
-      "english": "Fear",
-      "category": "情感",
-      "emoji": "😨",
-      "radical": "心",
-      "strokes": 8,
-      "stroke_order": [
-        "竖",
-        "横折",
-        "横",
-        "横",
-        "竖",
-        "横",
-        "点",
-        "卧钩"
-      ],
-      "origin": {
-        "oracle": "怕",
-        "seal": "怕",
-        "meaning": "心加白表示怕"
-      },
-      "story_cn": "不怕困难，勇敢面对。怕是正常的，但要克服！",
-      "story_en": "Don't fear difficulties, face bravely. Fear is normal, but overcome it!",
-      "words": [
-        "害怕 hài pà · Fear",
-        "不怕 bù pà · Not afraid",
-        "可怕 kě pà · Scary",
-        "怕怕 pà pà · Afraid"
-      ]
-    },
-    {
-      "char": "乐",
-      "pinyin": "lè",
-      "english": "Happy/Joy",
-      "category": "情感",
-      "emoji": "🎉",
-      "radical": "木",
-      "strokes": 5,
-      "stroke_order": [
-        "撇",
-        "竖",
-        "撇",
-        "捺",
-        "点"
-      ],
-      "origin": {
-        "oracle": "乐",
-        "seal": "乐",
-        "meaning": "乐器形状表示乐"
-      },
-      "story_cn": "快乐学习，快乐生活。乐是最开心的心情！",
-      "story_en": "Happy learning, happy life. Joy is the happiest mood!",
-      "words": [
-        "快乐 kuài lè · Happy",
-        "乐园 lè yuán · Paradise",
-        "欢乐 huān lè · Joyful",
-        "乐观 lè guān · Optimistic"
+        "爱心 ài xīn · Love",
+        "爱情 ài qíng · Love",
+        "爱护 ài hù · Cherish",
+        "可爱 kě ài · Cute"
       ]
     },
     {
       "char": "喜",
       "pinyin": "xǐ",
-      "english": "Like/Happy",
+      "english": "Happy",
       "category": "情感",
-      "emoji": "😊",
-      "radical": "口",
+      "emoji": "😄",
+      "radical": "士",
       "strokes": 12,
       "stroke_order": [
         "横",
         "竖",
+        "横折",
+        "横",
+        "点",
+        "撇",
         "横",
         "竖",
         "横折",
         "横",
-        "竖",
-        "横折",
-        "横",
-        "横",
-        "横",
-        "横"
+        "竖钩",
+        "撇",
+        "点"
       ],
       "origin": {
         "oracle": "喜",
         "seal": "喜",
-        "meaning": "鼓加口表示喜"
+        "meaning": "古人表示高兴"
       },
-      "story_cn": "喜欢学习，喜欢玩耍。喜是开心的心情！",
-      "story_en": "Like learning, like playing. Happy is joyful mood!",
+      "story_cn": "喜事就是开心的事。过年是喜事，生日也是喜事！",
+      "story_en": "Happy events are joyful things. Chinese New Year is happy, birthday is happy!",
       "words": [
         "喜欢 xǐ huān · Like",
+        "高兴 gāo xìng · Happy",
         "喜事 xǐ shì · Happy event",
-        "欢喜 huān xǐ · Joy",
-        "喜庆 xǐ qìng · Celebration"
+        "喜庆 xǐ qìng · Festive"
       ]
     },
     {
-      "char": "怒",
-      "pinyin": "nù",
-      "english": "Angry",
+      "char": "乐",
+      "pinyin": "lè",
+      "english": "Joy",
       "category": "情感",
-      "emoji": "😠",
-      "radical": "心",
-      "strokes": 9,
+      "emoji": "🎊",
+      "radical": "丿",
+      "strokes": 5,
       "stroke_order": [
         "撇",
-        "横",
+        "竖折",
+        "竖钩",
         "撇",
-        "捺",
-        "横折钩",
-        "竖",
-        "横",
-        "点",
-        "卧钩"
+        "点"
       ],
       "origin": {
-        "oracle": "怒",
-        "seal": "怒",
-        "meaning": "心加奴表示怒"
+        "oracle": "乐",
+        "seal": "乐",
+        "meaning": "古人表示快乐"
       },
-      "story_cn": "生气时要冷静，不要发怒。怒是不好的心情。",
-      "story_en": "Be calm when angry, don't rage. Anger is bad mood.",
+      "story_cn": "快乐是美好的感觉。唱歌、跳舞、玩耍都很快乐！",
+      "story_en": "Joy is a wonderful feeling. Singing, dancing, playing are all joyful!",
       "words": [
-        "愤怒 fèn nù · Angry",
-        "怒气 nù qì · Anger",
-        "发怒 fā nù · Rage",
-        "怒吼 nù hǒu · Roar"
+        "快乐 kuài lè · Happy",
+        "欢乐 huān lè · Joy",
+        "乐园 lè yuán · Amusement park",
+        "乐意 lè yì · Willing"
+      ]
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "english": "Good",
+      "category": "情感",
+      "emoji": "👍",
+      "radical": "女",
+      "strokes": 6,
+      "stroke_order": [
+        "撇",
+        "横撇",
+        "竖",
+        "横折",
+        "横",
+        "横"
+      ],
+      "origin": {
+        "oracle": "好",
+        "seal": "好",
+        "meaning": "女子在一起表示美好"
+      },
+      "story_cn": "好就是很棒的意思。好人、好事、好心情！",
+      "story_en": "Good means excellent. Good people, good things, good mood!",
+      "words": [
+        "好人 hǎo rén · Good person",
+        "好事 hǎo shì · Good thing",
+        "好看 hǎo kàn · Good looking",
+        "好玩 hǎo wán · Fun"
       ]
     },
     {
@@ -2304,48 +2142,48 @@
       "origin": {
         "oracle": "米",
         "seal": "米",
-        "meaning": "古人画谷粒表示米"
+        "meaning": "古人画米粒形状表示米"
       },
-      "story_cn": "米饭是主食，米可以做成很多好吃的。农民伯伯种米辛苦！",
-      "story_en": "Rice is staple food, rice can make many delicious things. Farmers work hard to grow rice!",
+      "story_cn": "米饭是主食。大米香喷喷，小朋友要好好吃饭！",
+      "story_en": "Rice is the staple food. Rice smells good, children should eat well!",
       "words": [
         "米饭 mǐ fàn · Rice",
-        "小米 xiǎo mǐ · Millet",
         "大米 dà mǐ · Rice",
-        "米粒 mǐ lì · Rice grain"
+        "小米 xiǎo mǐ · Millet",
+        "玉米 yù mǐ · Corn"
       ]
     },
     {
       "char": "面",
       "pinyin": "miàn",
-      "english": "Face/Noodle",
+      "english": "Noodle",
       "category": "食物",
       "emoji": "🍜",
       "radical": "面",
       "strokes": 9,
       "stroke_order": [
         "横",
-        "撇",
         "竖",
         "横折",
         "横",
-        "横",
-        "横",
         "竖",
-        "横"
+        "撇",
+        "点",
+        "撇",
+        "捺"
       ],
       "origin": {
         "oracle": "面",
         "seal": "面",
-        "meaning": "古人画脸形状表示面"
+        "meaning": "古人画面粉形状表示面"
       },
-      "story_cn": "面条好吃，面条有各种口味。面也可以指脸。",
-      "story_en": "Noodles are delicious, noodles have many flavors. Face also means noodles.",
+      "story_cn": "面条长长的，可以做很多好吃的。牛肉面、鸡蛋面都很好吃！",
+      "story_en": "Noodles are long, can make many delicious dishes. Beef noodles, egg noodles are delicious!",
       "words": [
-        "面条 miàn tiáo · Noodle",
-        "方便面 fāng biàn miàn · Instant noodle",
+        "面条 miàn tiáo · Noodles",
         "面包 miàn bāo · Bread",
-        "面食 miàn shí · Noodle food"
+        "面粉 miàn fěn · Flour",
+        "方便面 fāng biàn miàn · Instant noodles"
       ]
     },
     {
@@ -2360,22 +2198,22 @@
         "竖",
         "横折钩",
         "撇",
+        "点",
         "撇",
-        "横",
-        "横"
+        "点"
       ],
       "origin": {
         "oracle": "肉",
         "seal": "肉",
-        "meaning": "古人画肉块表示肉"
+        "meaning": "古人画肉的形状表示肉"
       },
-      "story_cn": "肉有营养，猪肉、牛肉、鸡肉都好吃。",
-      "story_en": "Meat is nutritious, pork, beef, chicken are all delicious.",
+      "story_cn": "肉很有营养，能帮助小朋友长大。鸡肉、鱼肉都很好！",
+      "story_en": "Meat is nutritious, helps children grow. Chicken, fish are all good!",
       "words": [
         "猪肉 zhū ròu · Pork",
         "牛肉 niú ròu · Beef",
         "鸡肉 jī ròu · Chicken",
-        "吃肉 chī ròu · Eat meat"
+        "鱼肉 yú ròu · Fish"
       ]
     },
     {
@@ -2384,1021 +2222,1260 @@
       "english": "Vegetable",
       "category": "食物",
       "emoji": "🥬",
-      "radical": "草",
+      "radical": "艹",
       "strokes": 11,
       "stroke_order": [
         "横",
         "竖",
         "竖",
+        "横",
         "撇",
         "竖",
         "横折",
-        "横",
-        "横",
-        "横",
         "竖",
-        "撇"
+        "撇",
+        "捺",
+        "点"
       ],
       "origin": {
         "oracle": "菜",
         "seal": "菜",
-        "meaning": "草加采表示菜"
+        "meaning": "草本植物可食用表示菜"
       },
-      "story_cn": "蔬菜有营养，多吃蔬菜身体好！青菜、白菜、菠菜都好吃。",
-      "story_en": "Vegetables are nutritious, eat more vegetables for good health! Green veg, cabbage, spinach are delicious.",
+      "story_cn": "蔬菜很健康，有很多维生素。多吃蔬菜身体棒！",
+      "story_en": "Vegetables are healthy, have many vitamins. Eat more vegetables for good health!",
       "words": [
-        "蔬菜 shū cài · Vegetable",
-        "青菜 qīng cài · Green veg",
-        "菜叶 cài yè · Leaf",
-        "菜园 cài yuán · Garden"
+        "蔬菜 shū cài · Vegetables",
+        "白菜 bái cài · Chinese cabbage",
+        "青菜 qīng cài · Green vegetables",
+        "买菜 mǎi cài · Buy vegetables"
       ]
     },
     {
-      "char": "饭",
-      "pinyin": "fàn",
-      "english": "Meal/Rice",
-      "category": "食物",
-      "emoji": "🍚",
-      "radical": "食",
-      "strokes": 7,
+      "char": "红",
+      "pinyin": "hóng",
+      "english": "Red",
+      "category": "颜色",
+      "emoji": "🔴",
+      "radical": "纟",
+      "strokes": 6,
       "stroke_order": [
-        "撇",
-        "横钩",
-        "竖钩",
-        "撇",
-        "捺",
-        "横折",
+        "撇折",
+        "撇折",
+        "提",
+        "横",
+        "竖",
         "横"
       ],
       "origin": {
-        "oracle": "饭",
-        "seal": "饭",
-        "meaning": "食加反表示饭"
+        "oracle": "红",
+        "seal": "红",
+        "meaning": "丝线染成红色"
       },
-      "story_cn": "吃饭时间到了！早饭、午饭、晚饭，三餐要按时。",
-      "story_en": "Time to eat! Breakfast, lunch, dinner, eat on time.",
+      "story_cn": "红色是喜庆的颜色。过年时红灯笼、红鞭炮，很热闹！",
+      "story_en": "Red is a festive color. Red lanterns, red firecrackers during Chinese New Year!",
       "words": [
-        "吃饭 chī fàn · Eat meal",
-        "米饭 mǐ fàn · Rice",
-        "早饭 zǎo fàn · Breakfast",
-        "晚饭 wǎn fàn · Dinner"
+        "红色 hóng sè · Red",
+        "红花 hóng huā · Red flower",
+        "红旗 hóng qí · Red flag",
+        "红火 hóng huǒ · Prosperous"
+      ]
+    },
+    {
+      "char": "黄",
+      "pinyin": "huáng",
+      "english": "Yellow",
+      "category": "颜色",
+      "emoji": "🟡",
+      "radical": "黄",
+      "strokes": 11,
+      "stroke_order": [
+        "横",
+        "竖",
+        "竖",
+        "横",
+        "竖",
+        "横折",
+        "横",
+        "竖",
+        "撇",
+        "点"
+      ],
+      "origin": {
+        "oracle": "黄",
+        "seal": "黄",
+        "meaning": "古人画玉佩表示黄色"
+      },
+      "story_cn": "黄色是阳光的颜色。秋天的树叶变黄了，很漂亮！",
+      "story_en": "Yellow is the color of sunshine. Autumn leaves turn yellow, very beautiful!",
+      "words": [
+        "黄色 huáng sè · Yellow",
+        "黄金 huáng jīn · Gold",
+        "黄河 huáng hé · Yellow River",
+        "黄昏 huáng hūn · Dusk"
+      ]
+    },
+    {
+      "char": "蓝",
+      "pinyin": "lán",
+      "english": "Blue",
+      "category": "颜色",
+      "emoji": "🔵",
+      "radical": "艹",
+      "strokes": 13,
+      "stroke_order": [
+        "横",
+        "竖",
+        "竖",
+        "竖",
+        "竖折",
+        "竖",
+        "横",
+        "竖",
+        "横折",
+        "横",
+        "横",
+        "撇",
+        "竖"
+      ],
+      "origin": {
+        "oracle": "蓝",
+        "seal": "蓝",
+        "meaning": "蓝草可以染蓝色"
+      },
+      "story_cn": "蓝色是天空和大海的颜色。蓝色让人感觉很舒服！",
+      "story_en": "Blue is the color of sky and sea. Blue makes people feel comfortable!",
+      "words": [
+        "蓝色 lán sè · Blue",
+        "蓝天 lán tiān · Blue sky",
+        "蓝图 lán tú · Blueprint",
+        "蓝色 lán sè · Blue"
+      ]
+    },
+    {
+      "char": "绿",
+      "pinyin": "lǜ",
+      "english": "Green",
+      "category": "颜色",
+      "emoji": "🟢",
+      "radical": "纟",
+      "strokes": 11,
+      "stroke_order": [
+        "撇折",
+        "撇折",
+        "提",
+        "横折",
+        "横",
+        "竖钩",
+        "点",
+        "撇",
+        "点"
+      ],
+      "origin": {
+        "oracle": "绿",
+        "seal": "绿",
+        "meaning": "丝线染成绿色"
+      },
+      "story_cn": "绿色是小草和树叶的颜色。绿色代表生命！",
+      "story_en": "Green is the color of grass and leaves. Green represents life!",
+      "words": [
+        "绿色 lǜ sè · Green",
+        "草地 cǎo dì · Grassland",
+        "绿叶 lǜ yè · Green leaf",
+        "绿树 lǜ shù · Green tree"
+      ]
+    },
+    {
+      "char": "白",
+      "pinyin": "bái",
+      "english": "White",
+      "category": "颜色",
+      "emoji": "⚪",
+      "radical": "白",
+      "strokes": 5,
+      "stroke_order": [
+        "撇",
+        "竖",
+        "横折",
+        "横",
+        "横"
+      ],
+      "origin": {
+        "oracle": "白",
+        "seal": "白",
+        "meaning": "古人画白色表示白"
+      },
+      "story_cn": "白色是雪和云朵的颜色。白色很纯洁！",
+      "story_en": "White is the color of snow and clouds. White is pure!",
+      "words": [
+        "白色 bái sè · White",
+        "白云 bái yún · White cloud",
+        "白雪 bái xuě · White snow",
+        "白天 bái tiān · Daytime"
+      ]
+    },
+    {
+      "char": "黑",
+      "pinyin": "hēi",
+      "english": "Black",
+      "category": "颜色",
+      "emoji": "⚫",
+      "radical": "黑",
+      "strokes": 12,
+      "stroke_order": [
+        "竖",
+        "横折",
+        "点",
+        "撇",
+        "横",
+        "竖",
+        "横折",
+        "横",
+        "横",
+        "点",
+        "点",
+        "点"
+      ],
+      "origin": {
+        "oracle": "黑",
+        "seal": "黑",
+        "meaning": "古人画黑色表示黑"
+      },
+      "story_cn": "黑色是夜晚的颜色。黑夜很美，有星星和月亮！",
+      "story_en": "Black is the color of night. Night is beautiful with stars and moon!",
+      "words": [
+        "黑色 hēi sè · Black",
+        "黑夜 hēi yè · Night",
+        "黑板 hēi bǎn · Blackboard",
+        "黑发 hēi fà · Black hair"
+      ]
+    },
+    {
+      "char": "学",
+      "pinyin": "xué",
+      "english": "Learn",
+      "category": "动作",
+      "emoji": "📚",
+      "radical": "子",
+      "strokes": 8,
+      "stroke_order": [
+        "点",
+        "点",
+        "撇",
+        "点",
+        "横钩",
+        "横撇",
+        "竖钩",
+        "横"
+      ],
+      "origin": {
+        "oracle": "学",
+        "seal": "学",
+        "meaning": "古人学习的样子"
+      },
+      "story_cn": "学习很有趣！每天学一点，知识多一点。",
+      "story_en": "Learning is fun! Learn a little every day, gain more knowledge.",
+      "words": [
+        "学习 xué xí · Learn",
+        "学生 xué shēng · Student",
+        "学校 xué xiào · School",
+        "学问 xué wèn · Knowledge"
+      ]
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "english": "Book",
+      "category": "物品",
+      "emoji": "📖",
+      "radical": "乙",
+      "strokes": 4,
+      "stroke_order": [
+        "横折",
+        "横折钩",
+        "竖",
+        "点"
+      ],
+      "origin": {
+        "oracle": "书",
+        "seal": "书",
+        "meaning": "古人书写的样子"
+      },
+      "story_cn": "书是知识的宝库。读书可以学到很多东西！",
+      "story_en": "Books are treasure troves of knowledge. Reading can learn many things!",
+      "words": [
+        "书本 shū běn · Book",
+        "看书 kàn shū · Read",
+        "书包 shū bāo · School bag",
+        "书店 shū diàn · Bookstore"
+      ]
+    },
+    {
+      "char": "家",
+      "pinyin": "jiā",
+      "english": "Home",
+      "category": "物品",
+      "emoji": "🏠",
+      "radical": "宀",
+      "strokes": 10,
+      "stroke_order": [
+        "点",
+        "点",
+        "横钩",
+        "横",
+        "撇",
+        "弯钩",
+        "撇",
+        "撇",
+        "撇",
+        "捺"
+      ],
+      "origin": {
+        "oracle": "家",
+        "seal": "家",
+        "meaning": "房子里有猪表示家"
+      },
+      "story_cn": "家是温暖的港湾。爸爸妈妈和我，组成幸福的家！",
+      "story_en": "Home is a warm harbor. Mom, dad and me, we make a happy family!",
+      "words": [
+        "家里 jiā lǐ · Home",
+        "家人 jiā rén · Family",
+        "回家 huí jiā · Go home",
+        "大家 dà jiā · Everyone"
       ]
     }
   ],
   "stories": [
     {
-      "id": "s1",
-      "title": "太阳和月亮",
-      "title_en": "The Sun and Moon",
-      "emoji": "🌅",
-      "content_cn": "从前，太阳和月亮是好朋友。太阳公公白天工作，给大地带来光明和温暖。月亮姐姐晚上工作，让夜晚不再黑暗。有一天，他们在黄昏见面了，天空变成了美丽的橙红色，那就是美丽的晚霞！太阳说：'我给大家阳光。'月亮说：'我给大家美梦。'太阳和月亮轮流守护着我们的世界。",
-      "content_en": "Once upon a time the Sun and Moon were good friends. Grandpa Sun worked by day bringing light and warmth. Sister Moon worked by night making darkness bright. One day they met at dusk, and the sky turned orange-red — that is the beautiful sunset! Sun said: I give sunlight to everyone. Moon said: I give sweet dreams to everyone. Sun and Moon take turns guarding our world.",
+      "id": 1,
+      "title_cn": "太阳和月亮的故事",
+      "title_en": "The Story of Sun and Moon",
+      "content_cn": "很久很久以前，天上只有一个太阳。太阳每天都很辛苦地工作，把光和热带给大地。有一天，太阳觉得太累了，就去找月亮帮忙。月亮说：\"好的，我来帮你！\"于是，太阳白天工作，月亮晚上工作，轮流守护着大地。从此，白天有温暖的阳光，夜晚有柔和的月光。",
+      "content_en": "Long long ago, there was only the sun in the sky. The sun worked hard every day, bringing light and warmth to the earth. One day, the sun felt too tired and went to ask the moon for help. The moon said, 'Okay, I'll help you!' So the sun works during the day and the moon works at night, taking turns to guard the earth. Since then, there's warm sunshine during the day and soft moonlight at night.",
+      "difficulty": 1,
       "characters": [
         "日",
         "月",
         "天",
+        "地",
         "光",
-        "明",
-        "晚",
-        "阳",
-        "亮"
+        "热",
+        "白",
+        "晚"
       ]
     },
     {
-      "id": "s2",
-      "title": "水的旅行",
-      "title_en": "Water's Journey",
-      "emoji": "💧",
-      "content_cn": "小雨滴从天上落下来，落在小溪里。小溪流向大河，大河流向大海。小鱼在水里游来游去，小虾在水里跳来跳去。水滴说：'我要去大海！'大海说：'欢迎你！'太阳出来，把水变成云，云又变成雨，水又开始新的旅行。",
-      "content_en": "Little raindrops fall from sky into streams. Streams flow to rivers, rivers flow to the sea. Little fish swim in water, little shrimp jump in water. Water drop says: I want to go to the sea! Sea says: Welcome! Sun comes out, turns water into clouds, clouds become rain, water starts new journey.",
+      "id": 2,
+      "title_cn": "三只小猪",
+      "title_en": "Three Little Pigs",
+      "content_cn": "猪妈妈有三只小猪。有一天，猪妈妈对小猪们说：\"孩子们，你们长大了，应该自己盖房子住了。\"老大用稻草盖了一间房子，老二用木头盖了一间房子，老三用砖头盖了一间房子。一只大灰狼来了，吹倒了老大和老二的房子，但是吹不倒老三的砖房子。三只小猪都躲进了砖房子里，大灰狼再也没办法了。",
+      "content_en": "Mother pig has three little pigs. One day, Mother Pig said to the little pigs, 'Children, you've grown up, you should build your own houses to live in.' The oldest pig built a house with straw, the second pig built a house with wood, and the youngest pig built a house with bricks. A big bad wolf came, blew down the oldest and second pig's houses, but couldn't blow down the youngest pig's brick house. All three little pigs hid in the brick house, and the wolf had no way.",
+      "difficulty": 1,
       "characters": [
-        "水",
-        "雨",
-        "河",
-        "海",
-        "鱼",
-        "云",
-        "天",
-        "流"
-      ]
-    },
-    {
-      "id": "s3",
-      "title": "森林小伙伴",
-      "title_en": "Forest Friends",
-      "emoji": "🌲",
-      "content_cn": "森林里住着很多小动物。小松鼠住在树上，小鸟在树枝上唱歌，小兔子在草地上跳。一天，小松鼠说：'我们一起玩吧！'小鸟说：'好呀！'小兔子说：'我来跳绳！'森林里充满了欢笑声。",
-      "content_en": "Many little animals live in the forest. Little squirrel lives in tree, little bird sings on branch, little rabbit jumps on grass. One day, squirrel says: Let's play together! Bird says: OK! Rabbit says: I'll jump rope! Forest is full of laughter.",
-      "characters": [
-        "林",
-        "树",
-        "鸟",
+        "三",
+        "小",
+        "猪",
+        "房",
+        "子",
         "草",
-        "兔",
-        "松",
-        "玩",
-        "跳"
+        "木",
+        "砖"
       ]
     },
     {
-      "id": "s4",
-      "title": "数字奇遇",
-      "title_en": "Number Adventure",
-      "emoji": "🔢",
-      "content_cn": "数字王国里住着一到十。一是最小的，十是最大的。一天，三说：'我们排队吧！'一站在最前面，十站在最后面。二说：'我和三在一起就是五！'五说：'我和五在一起就是十！'数字们开心地玩着。",
-      "content_en": "Number kingdom has one to ten. One is smallest, ten is biggest. One day, three says: Let's line up! One stands first, ten stands last. Two says: Me and three make five! Five says: Me and five make ten! Numbers play happily.",
+      "id": 3,
+      "title_cn": "小鸟找妈妈",
+      "title_en": "Little Bird Finds Mom",
+      "content_cn": "春天来了，小鸟从蛋里孵出来了。它睁开眼睛，看到蓝蓝的天空和绿绿的草地。小鸟问：\"妈妈在哪里？\"蝴蝶说：\"你的妈妈有翅膀。\"蜜蜂说：\"你的妈妈会唱歌。\"小鸟飞呀飞，终于找到了鸟妈妈。鸟妈妈说：\"孩子，妈妈在这里！\"小鸟高兴地扑进妈妈的怀里。",
+      "content_en": "Spring came, and the little bird hatched from the egg. It opened its eyes and saw the blue sky and green grass. The little bird asked, 'Where is Mom?' The butterfly said, 'Your mom has wings.' The bee said, 'Your mom can sing.' The little bird flew and flew, finally finding Bird Mom. Bird Mom said, 'Child, Mom is here!' The little bird happily flew into Mom's arms.",
+      "difficulty": 1,
       "characters": [
+        "鸟",
+        "妈",
+        "妈",
+        "天",
+        "空",
+        "草",
+        "地",
+        "飞"
+      ]
+    },
+    {
+      "id": 4,
+      "title_cn": "小熊钓鱼",
+      "title_en": "Little Bear Goes Fishing",
+      "content_cn": "小熊拿着鱼竿来到河边钓鱼。他等啊等，鱼就是不上钩。小熊有点着急了。这时，一只蝴蝶飞过来，小熊放下鱼竿去追蝴蝶。追了一会儿，蝴蝶飞走了，小熊又回到河边。他等啊等，终于钓到了一条大鱼！小熊高兴极了，提着大鱼回家了。",
+      "content_en": "Little Bear took a fishing rod and went fishing by the river. He waited and waited, but the fish wouldn't bite. Little Bear got a little anxious. Just then, a butterfly flew by, and Little Bear put down his rod to chase the butterfly. After chasing for a while, the butterfly flew away, and Little Bear returned to the river. He waited and waited, finally catching a big fish! Little Bear was overjoyed and carried the big fish home.",
+      "difficulty": 1,
+      "characters": [
+        "熊",
+        "鱼",
+        "河",
+        "竿",
+        "等",
+        "蝴",
+        "蝶",
+        "追"
+      ]
+    },
+    {
+      "id": 5,
+      "title_cn": "小兔采蘑菇",
+      "title_en": "Little Rabbit Picks Mushrooms",
+      "content_cn": "秋天到了，小兔子背着篮子去森林里采蘑菇。森林里的蘑菇真多啊！有红色的、黄色的、白色的。妈妈告诉小兔：\"彩色的蘑菇有毒，不能吃。\"小兔只采白色的蘑菇。采着采着，小兔发现了一个又大又白的蘑菇。小兔高兴地采下来，放进篮子里。回家后，妈妈夸小兔是个聪明的孩子。",
+      "content_en": "Autumn arrived, and Little Rabbit carried a basket to pick mushrooms in the forest. There were so many mushrooms in the forest! Red ones, yellow ones, white ones. Mom told Little Rabbit, 'Colorful mushrooms are poisonous, don't eat them.' Little Rabbit only picked white mushrooms. While picking, Little Rabbit found a big white mushroom. Little Rabbit happily picked it and put it in the basket. After returning home, Mom praised Little Rabbit as a smart child.",
+      "difficulty": 2,
+      "characters": [
+        "兔",
+        "蘑",
+        "菇",
+        "森",
+        "林",
+        "采",
+        "篮",
+        "毒"
+      ]
+    },
+    {
+      "id": 6,
+      "title_cn": "小蚂蚁搬西瓜",
+      "title_en": "Little Ants Move Watermelon",
+      "content_cn": "一只小蚂蚁在草地上发现了一块大西瓜。西瓜又大又甜，小蚂蚁搬不动。于是，小蚂蚁跑回蚁巢，叫来许多小伙伴。大家一起用力，把西瓜搬回了家。蚂蚁们高兴地分享着甜甜的西瓜，它们说：\"团结就是力量！\"",
+      "content_en": "A little ant found a big watermelon on the grass. The watermelon was big and sweet, and the little ant couldn't carry it. So the little ant ran back to the nest and called many friends. Everyone worked together to carry the watermelon home. The ants happily shared the sweet watermelon, saying, 'Unity is strength!'",
+      "difficulty": 2,
+      "characters": [
+        "蚂",
+        "蚁",
+        "西",
+        "瓜",
+        "搬",
+        "力",
+        "团",
+        "结"
+      ]
+    },
+    {
+      "id": 7,
+      "title_cn": "雪人不见了",
+      "title_en": "The Snowman Disappeared",
+      "content_cn": "冬天来了，下了一场大雪。小朋友们堆了一个漂亮的雪人。雪人有圆圆的脑袋，大大的肚子，还有一双用树枝做的手。小朋友们每天都来看雪人。春天来了，天气变暖了。有一天，小朋友们发现雪人不见了，地上只剩下一滩水。妈妈说：\"雪人变成了水，又变成了水蒸气，飞到天上去了。\"",
+      "content_en": "Winter came, and it snowed heavily. The children built a beautiful snowman. The snowman had a round head, a big belly, and two hands made of branches. The children came to see the snowman every day. Spring came, and the weather warmed up. One day, the children found the snowman was gone, only a puddle of water was left on the ground. Mom said, 'The snowman turned into water, then into water vapor, and flew up to the sky.'",
+      "difficulty": 2,
+      "characters": [
+        "雪",
+        "人",
+        "冬",
+        "天",
+        "春",
+        "水",
+        "汽",
+        "飞"
+      ]
+    },
+    {
+      "id": 8,
+      "title_cn": "小猫钓鱼",
+      "title_en": "Little Cat Goes Fishing",
+      "content_cn": "小猫跟着妈妈去河边钓鱼。小猫看到蜻蜓飞过来，就放下鱼竿去追蜻蜓。追了一会儿，蜻蜓飞走了，小猫什么也没追到。回到河边，妈妈已经钓到了一条鱼。小猫有点不好意思。妈妈说：\"做事情要专心，不能三心二意。\"小猫点点头，专心地钓鱼。过了一会儿，小猫也钓到了一条小鱼！",
+      "content_en": "Little Cat followed Mom to the river to fish. Little Cat saw a dragonfly fly by and put down the rod to chase it. After chasing for a while, the dragonfly flew away, and Little Cat caught nothing. Returning to the river, Mom had already caught a fish. Little Cat felt a little embarrassed. Mom said, 'You must concentrate when doing things, not be half-hearted.' Little Cat nodded and focused on fishing. After a while, Little Cat also caught a small fish!",
+      "difficulty": 2,
+      "characters": [
+        "猫",
+        "钓",
+        "鱼",
+        "蜻",
+        "蜓",
+        "专",
+        "心",
+        "追"
+      ]
+    },
+    {
+      "id": 9,
+      "title_cn": "龟兔赛跑",
+      "title_en": "The Tortoise and the Hare",
+      "content_cn": "乌龟和兔子决定比赛跑步。兔子跑得很快，一会儿就把乌龟远远地甩在了后面。兔子觉得乌龟太慢了，就躺在路边睡着了。乌龟虽然跑得慢，但是一直不停地爬。等兔子醒来的时候，乌龟已经快到终点了。兔子赶紧跑过去，但已经来不及了。乌龟赢得了比赛！",
+      "content_en": "The tortoise and the hare decided to race. The hare ran very fast, leaving the tortoise far behind in no time. The hare thought the tortoise was too slow, so he lay down by the road and fell asleep. Although the tortoise ran slowly, he kept crawling without stopping. When the hare woke up, the tortoise was almost at the finish line. The hare ran quickly, but it was too late. The tortoise won the race!",
+      "difficulty": 3,
+      "characters": [
+        "龟",
+        "兔",
+        "赛",
+        "跑",
+        "快",
+        "慢",
+        "睡",
+        "赢"
+      ]
+    },
+    {
+      "id": 10,
+      "title_cn": "小蝌蚪找妈妈",
+      "title_en": "Little Tadpoles Find Mom",
+      "content_cn": "池塘里有一群小蝌蚪，它们长着大大的脑袋和长长的尾巴。小蝌蚪问鲤鱼阿姨：\"阿姨，您知道我们的妈妈在哪里吗？\"鲤鱼阿姨说：\"你们的妈妈有四条腿，宽嘴巴。\"小蝌蚪游啊游，看到了一只乌龟。它们说：\"妈妈！\"乌龟说：\"我不是你们的妈妈，你们的妈妈是青蛙。\"小蝌蚪继续游，终于找到了青蛙妈妈。",
+      "content_en": "There was a group of little tadpoles in the pond, with big heads and long tails. The little tadpoles asked Aunt Carp, 'Aunt, do you know where our mom is?' Aunt Carp said, 'Your mom has four legs and a wide mouth.' The little tadpoles swam and swam, and saw a turtle. They said, 'Mom!' The turtle said, 'I'm not your mom, your mom is a frog.' The little tadpoles continued swimming and finally found Frog Mom.",
+      "difficulty": 3,
+      "characters": [
+        "蝌",
+        "蚪",
+        "找",
+        "妈",
+        "蛙",
+        "鱼",
+        "龟",
+        "腿"
+      ]
+    },
+    {
+      "id": 11,
+      "title_cn": "乌鸦喝水",
+      "title_en": "The Crow Drinks Water",
+      "content_cn": "一只乌鸦口渴了，到处找水喝。它发现了一个瓶子，里面有一些水。但是瓶子很高，乌鸦够不着。乌鸦想了想，看到旁边有许多小石子。它把小石子一颗一颗放进瓶子里。瓶子里的水位慢慢升高，乌鸦终于喝到水了！",
+      "content_en": "A crow was thirsty and looked everywhere for water. It found a bottle with some water in it. But the bottle was tall, and the crow couldn't reach. The crow thought for a while and saw many small stones nearby. It put the small stones into the bottle one by one. The water level in the bottle slowly rose, and the crow finally drank the water!",
+      "difficulty": 3,
+      "characters": [
+        "乌",
+        "鸦",
+        "喝",
+        "水",
+        "瓶",
+        "石",
+        "子",
+        "高"
+      ]
+    },
+    {
+      "id": 12,
+      "title_cn": "猴子捞月",
+      "title_en": "Monkeys Fish for the Moon",
+      "content_cn": "一群猴子在树上玩耍。一只小猴看到井里有一个月亮，大声喊：\"不好了！月亮掉进井里了！\"老猴说：\"我们把月亮捞上来吧！\"于是，猴子们一个接一个地挂在树上，最下面的小猴伸手去捞月亮。可是，它刚碰到水面，月亮就碎了。老猴抬头一看，月亮还好好地挂在天上呢！",
+      "content_en": "A group of monkeys were playing in the trees. A little monkey saw a moon in the well and shouted, 'Oh no! The moon fell into the well!' The old monkey said, 'Let's fish the moon out!' So the monkeys hung from the tree one by one, and the little monkey at the bottom reached out to fish for the moon. But as soon as it touched the water, the moon broke into pieces. The old monkey looked up and saw the moon was still hanging in the sky!",
+      "difficulty": 3,
+      "characters": [
+        "猴",
+        "子",
+        "捞",
+        "月",
+        "井",
+        "树",
+        "挂",
+        "碎"
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": 1,
+      "title_cn": "春天来了",
+      "title_en": "Spring is Coming",
+      "content_cn": "春天来了！小草绿了，花儿开了。小鸟在树上唱歌，蝴蝶在花丛中跳舞。小朋友们脱掉棉袄，跑到公园里玩耍。春天真美好！",
+      "content_en": "Spring is coming! The grass turns green, flowers bloom. Birds sing in the trees, butterflies dance among flowers. Children take off their cotton-padded jackets and run to play in the park. Spring is so beautiful!",
+      "difficulty": 1,
+      "words": [
+        "春",
+        "天",
+        "草",
+        "花",
+        "鸟",
+        "树",
+        "歌",
+        "舞"
+      ]
+    },
+    {
+      "id": 2,
+      "title_cn": "我的家人",
+      "title_en": "My Family",
+      "content_cn": "我家有爸爸、妈妈、爷爷、奶奶和我。爸爸很高，妈妈很美。爷爷喜欢下棋，奶奶喜欢做饭。我爱我的家人！",
+      "content_en": "There are dad, mom, grandpa, grandma and me in my family. Dad is tall, mom is beautiful. Grandpa likes playing chess, grandma likes cooking. I love my family!",
+      "difficulty": 1,
+      "words": [
+        "家",
+        "人",
+        "爸",
+        "妈",
+        "爷",
+        "奶",
+        "爱",
+        "我"
+      ]
+    },
+    {
+      "id": 3,
+      "title_cn": "小动物们",
+      "title_en": "Little Animals",
+      "content_cn": "小猫喵喵叫，小狗汪汪叫。小鸡叽叽叽，小鸭嘎嘎嘎。小羊咩咩咩，小牛哞哞哞。小动物们真可爱！",
+      "content_en": "Little cat meows, little dog barks. Little chick cheeps, little duck quacks. Little sheep bleats, little cow moos. Little animals are so cute!",
+      "difficulty": 1,
+      "words": [
+        "猫",
+        "狗",
+        "鸡",
+        "鸭",
+        "羊",
+        "牛",
+        "叫",
+        "爱"
+      ]
+    },
+    {
+      "id": 4,
+      "title_cn": "水果乐园",
+      "title_en": "Fruit Paradise",
+      "content_cn": "苹果红，香蕉黄。葡萄紫，橙子橙。西瓜大，草莓小。水果甜，营养好！",
+      "content_en": "Apple is red, banana is yellow. Grape is purple, orange is orange. Watermelon is big, strawberry is small. Fruits are sweet, nutritious!",
+      "difficulty": 2,
+      "words": [
+        "苹",
+        "果",
+        "香",
+        "蕉",
+        "葡",
+        "萄",
+        "西",
+        "瓜"
+      ]
+    },
+    {
+      "id": 5,
+      "title_cn": "颜色歌",
+      "title_en": "Color Song",
+      "content_cn": "蓝蓝的天空白白的云，红红的花朵绿绿的草。黄黄的香蕉紫紫的葡萄，彩色的世界真美好！",
+      "content_en": "Blue sky white clouds, red flowers green grass. Yellow bananas purple grapes, colorful world is so beautiful!",
+      "difficulty": 2,
+      "words": [
+        "蓝",
+        "天",
+        "白",
+        "云",
+        "红",
+        "花",
+        "绿",
+        "草"
+      ]
+    },
+    {
+      "id": 6,
+      "title_cn": "数字歌",
+      "title_en": "Number Song",
+      "content_cn": "一二三四五，上山打老虎。老虎没打到，打到小松鼠。松鼠有几只？让我数一数。一二三四五！",
+      "content_en": "One two three four five, go up the mountain to fight tiger. Didn't catch tiger, caught little squirrel. How many squirrels? Let me count. One two three four five!",
+      "difficulty": 2,
+      "words": [
         "一",
         "二",
         "三",
         "四",
         "五",
-        "六",
-        "七",
-        "八",
-        "九",
-        "十"
-      ]
-    },
-    {
-      "id": "s5",
-      "title": "我的一家",
-      "title_en": "My Family",
-      "emoji": "👨‍👩‍👧",
-      "content_cn": "我家有爸爸、妈妈、爷爷、奶奶和我。爸爸工作辛苦，妈妈照顾我。爷爷讲故事，奶奶做饭好吃。我爱我的家人，我们一家人很幸福。",
-      "content_en": "My family has dad, mom, grandpa, grandma and me. Dad works hard, mom takes care of me. Grandpa tells stories, grandma cooks delicious food. I love my family, we are happy together.",
-      "characters": [
-        "我",
-        "爸",
-        "妈",
-        "爷",
-        "奶",
-        "家",
-        "人",
-        "爱"
-      ]
-    },
-    {
-      "id": "s6",
-      "title": "颜色的世界",
-      "title_en": "World of Colors",
-      "emoji": "🎨",
-      "content_cn": "世界有很多颜色。太阳是红色的，天空是蓝色的，草地是绿色的，云是白色的。花有红的、黄的、紫的。小朋友说：'世界真美丽！'",
-      "content_en": "World has many colors. Sun is red, sky is blue, grass is green, clouds are white. Flowers have red, yellow, purple. Children say: World is so beautiful!",
-      "characters": [
-        "红",
-        "蓝",
-        "绿",
-        "白",
-        "花",
-        "天",
-        "云",
-        "草"
-      ]
-    },
-    {
-      "id": "s7",
-      "title": "在山上玩",
-      "title_en": "Playing on Mountain",
-      "emoji": "⛰️",
-      "content_cn": "小朋友去山上玩。山很高，树很多。小鸟在树上唱歌，小羊在草地上吃草。小朋友爬上山顶，看到远处的风景。山真好玩！",
-      "content_en": "Children go to play on mountain. Mountain is high, trees are many. Birds sing on trees, sheep eat grass on grassland. Children climb to top, see distant scenery. Mountain is fun!",
-      "characters": [
         "山",
-        "树",
-        "鸟",
-        "羊",
-        "草",
-        "爬",
-        "高",
-        "远"
+        "虎",
+        "松"
       ]
     },
     {
-      "id": "s8",
-      "title": "下雨啦",
-      "title_en": "It's Raining",
-      "emoji": "🌧️",
-      "content_cn": "今天下雨了！小雨滴滴答答落下来。小朋友撑着雨伞，穿着雨衣。雨停了，彩虹出来了！红橙黄绿青蓝紫，彩虹真美丽！",
-      "content_en": "Today is raining! Little raindrops fall patter-patter. Children hold umbrellas, wear raincoats. Rain stops, rainbow comes out! Red orange yellow green blue purple, rainbow is beautiful!",
-      "characters": [
+      "id": 7,
+      "title_cn": "我爱学习",
+      "title_en": "I Love Learning",
+      "content_cn": "我喜欢读书，也喜欢写字。老师教我们认字，教我们画画。每天学习新知识，我真开心！",
+      "content_en": "I like reading, I also like writing. Teacher teaches us to read characters, teaches us to draw. Learning new knowledge every day, I'm so happy!",
+      "difficulty": 2,
+      "words": [
+        "学",
+        "习",
+        "书",
+        "字",
+        "老",
+        "师",
+        "画",
+        "知"
+      ]
+    },
+    {
+      "id": 8,
+      "title_cn": "运动会",
+      "title_en": "Sports Day",
+      "content_cn": "学校开运动会，小朋友们来比赛。有的跑步，有的跳绳，有的跳高。大家都很努力，加油加油！",
+      "content_en": "The school holds a sports meeting, children come to compete. Some run, some jump rope, some high jump. Everyone works hard, go go go!",
+      "difficulty": 3,
+      "words": [
+        "运",
+        "动",
+        "会",
+        "跑",
+        "跳",
+        "绳",
+        "高",
+        "加"
+      ]
+    },
+    {
+      "id": 9,
+      "title_cn": "下雨天",
+      "title_en": "Rainy Day",
+      "content_cn": "哗啦啦，下雨了！小朋友们穿上雨衣，打起雨伞。雨水落在地上，溅起一朵朵水花。小青蛙在池塘里高兴地唱歌。",
+      "content_en": "Pitter-patter, it's raining! Children put on raincoats, hold umbrellas. Rain falls on the ground, splashing water flowers. Little frogs sing happily in the pond.",
+      "difficulty": 3,
+      "words": [
         "雨",
-        "云",
         "天",
+        "衣",
         "伞",
         "水",
-        "彩",
-        "红",
-        "蓝"
+        "花",
+        "蛙",
+        "唱"
       ]
-    }
-  ],
-  "categories": [
-    {
-      "id": "自然",
-      "name": "自然",
-      "name_en": "Nature",
-      "emoji": "🌿",
-      "count": 10
     },
     {
-      "id": "植物",
-      "name": "植物",
-      "name_en": "Plants",
-      "emoji": "🌱",
-      "count": 8
-    },
-    {
-      "id": "动物",
-      "name": "动物",
-      "name_en": "Animals",
-      "emoji": "🐾",
-      "count": 9
-    },
-    {
-      "id": "身体",
-      "name": "身体",
-      "name_en": "Body",
-      "emoji": "🧍",
-      "count": 9
-    },
-    {
-      "id": "数字",
-      "name": "数字",
-      "name_en": "Numbers",
-      "emoji": "🔢",
-      "count": 10
-    },
-    {
-      "id": "方位",
-      "name": "方位",
-      "name_en": "Directions",
-      "emoji": "🧭",
-      "count": 8
-    },
-    {
-      "id": "人称",
-      "name": "人称",
-      "name_en": "People",
-      "emoji": "👨‍👩‍👧",
-      "count": 8
-    },
-    {
-      "id": "动作",
-      "name": "动作",
-      "name_en": "Actions",
-      "emoji": "🏃",
-      "count": 10
-    },
-    {
-      "id": "情感",
-      "name": "情感",
-      "name_en": "Feelings",
-      "emoji": "💗",
-      "count": 6
-    },
-    {
-      "id": "食物",
-      "name": "食物",
-      "name_en": "Food",
-      "emoji": "🍎",
-      "count": 5
+      "id": 10,
+      "title_cn": "美丽的夜晚",
+      "title_en": "Beautiful Night",
+      "content_cn": "夜晚来了，月亮升起来了。星星在天上眨眼睛，萤火虫在草丛中飞舞。小朋友们听着故事，进入甜甜的梦乡。",
+      "content_en": "Night comes, the moon rises. Stars twinkle in the sky, fireflies dance in the grass. Children listen to stories and fall into sweet dreams.",
+      "difficulty": 3,
+      "words": [
+        "夜",
+        "晚",
+        "月",
+        "星",
+        "萤",
+        "火",
+        "梦",
+        "乡"
+      ]
     }
   ],
   "radicals": [
     {
-      "id": "r1",
-      "char": "日",
-      "name": "日字旁",
-      "name_en": "Sun radical",
-      "meaning": "与太阳、时间、光明有关",
-      "meaning_en": "Related to sun, time, light",
+      "radical": "一",
+      "meaning": "横画",
+      "pinyin": "yī",
+      "examples": [
+        "一",
+        "二",
+        "三",
+        "天",
+        "大"
+      ]
+    },
+    {
+      "radical": "丨",
+      "meaning": "竖画",
+      "pinyin": "gǔn",
+      "examples": [
+        "中",
+        "丰",
+        "串",
+        "事",
+        "书"
+      ]
+    },
+    {
+      "radical": "丿",
+      "meaning": "撇画",
+      "pinyin": "piě",
+      "examples": [
+        "人",
+        "大",
+        "牛",
+        "毛",
+        "手"
+      ]
+    },
+    {
+      "radical": "丶",
+      "meaning": "点画",
+      "pinyin": "zhǔ",
+      "examples": [
+        "主",
+        "为",
+        "义",
+        "火",
+        "心"
+      ]
+    },
+    {
+      "radical": "乙",
+      "meaning": "折画",
+      "pinyin": "yǐ",
+      "examples": [
+        "九",
+        "也",
+        "乞",
+        "孔",
+        "书"
+      ]
+    },
+    {
+      "radical": "二",
+      "meaning": "二横",
+      "pinyin": "èr",
+      "examples": [
+        "二",
+        "云",
+        "亏",
+        "亚",
+        "些"
+      ]
+    },
+    {
+      "radical": "人",
+      "meaning": "人",
+      "pinyin": "rén",
+      "examples": [
+        "人",
+        "大",
+        "个",
+        "从",
+        "众"
+      ]
+    },
+    {
+      "radical": "儿",
+      "meaning": "儿",
+      "pinyin": "ér",
+      "examples": [
+        "儿",
+        "元",
+        "兄",
+        "光",
+        "先"
+      ]
+    },
+    {
+      "radical": "亠",
+      "meaning": "点横",
+      "pinyin": "tóu",
+      "examples": [
+        "六",
+        "交",
+        "京",
+        "言",
+        "立"
+      ]
+    },
+    {
+      "radical": "大",
+      "meaning": "大",
+      "pinyin": "dà",
+      "examples": [
+        "大",
+        "天",
+        "太",
+        "夫",
+        "失"
+      ]
+    },
+    {
+      "radical": "小",
+      "meaning": "小",
+      "pinyin": "xiǎo",
+      "examples": [
+        "小",
+        "少",
+        "尖",
+        "光",
+        "当"
+      ]
+    },
+    {
+      "radical": "口",
+      "meaning": "口",
+      "pinyin": "kǒu",
+      "examples": [
+        "口",
+        "日",
+        "目",
+        "田",
+        "国"
+      ]
+    },
+    {
+      "radical": "日",
+      "meaning": "日",
+      "pinyin": "rì",
       "examples": [
         "日",
         "明",
-        "早",
         "时",
-        "晴",
-        "晒",
-        "暖",
-        "阳"
-      ],
-      "emoji": "☀️"
+        "星",
+        "春"
+      ]
     },
     {
-      "id": "r2",
-      "char": "月",
-      "name": "月字旁",
-      "name_en": "Moon radical",
-      "meaning": "与月亮、时间、身体部位有关",
-      "meaning_en": "Related to moon, time, body parts",
+      "radical": "月",
+      "meaning": "月",
+      "pinyin": "yuè",
       "examples": [
         "月",
         "明",
+        "有",
         "朋",
-        "期",
-        "脸",
-        "腿",
-        "肚",
         "背"
-      ],
-      "emoji": "🌙"
+      ]
     },
     {
-      "id": "r3",
-      "char": "水",
-      "name": "三点水",
-      "name_en": "Water radical",
-      "meaning": "与水、液体、流动有关",
-      "meaning_en": "Related to water, liquid, flow",
+      "radical": "水",
+      "meaning": "水",
+      "pinyin": "shuǐ",
       "examples": [
         "水",
         "河",
         "海",
-        "湖",
-        "洗",
-        "游",
-        "清",
-        "泪"
-      ],
-      "emoji": "💧"
+        "江",
+        "没"
+      ]
     },
     {
-      "id": "r4",
-      "char": "木",
-      "name": "木字旁",
-      "name_en": "Wood radical",
-      "meaning": "与树木、木材、植物有关",
-      "meaning_en": "Related to trees, wood, plants",
-      "examples": [
-        "木",
-        "树",
-        "林",
-        "森",
-        "桌",
-        "椅",
-        "床",
-        "板"
-      ],
-      "emoji": "🌳"
-    },
-    {
-      "id": "r5",
-      "char": "火",
-      "name": "火字旁",
-      "name_en": "Fire radical",
-      "meaning": "与火、热、光明有关",
-      "meaning_en": "Related to fire, heat, light",
+      "radical": "火",
+      "meaning": "火",
+      "pinyin": "huǒ",
       "examples": [
         "火",
-        "烧",
-        "烤",
+        "炎",
+        "烈",
         "灯",
-        "灶",
-        "烟",
-        "灭",
-        "热"
-      ],
-      "emoji": "🔥"
+        "烧"
+      ]
     },
     {
-      "id": "r6",
-      "char": "人",
-      "name": "单人旁",
-      "name_en": "Person radical",
-      "meaning": "与人、动作、行为有关",
-      "meaning_en": "Related to people, actions",
-      "examples": [
-        "人",
-        "他",
-        "她",
-        "你",
-        "们",
-        "做",
-        "作",
-        "住"
-      ],
-      "emoji": "🧍"
-    },
-    {
-      "id": "r7",
-      "char": "口",
-      "name": "口字旁",
-      "name_en": "Mouth radical",
-      "meaning": "与嘴巴、说话、吃有关",
-      "meaning_en": "Related to mouth, speech, eating",
-      "examples": [
-        "口",
-        "吃",
-        "喝",
-        "说",
-        "唱",
-        "叫",
-        "笑",
-        "哭"
-      ],
-      "emoji": "👄"
-    },
-    {
-      "id": "r8",
-      "char": "手",
-      "name": "提手旁",
-      "name_en": "Hand radical",
-      "meaning": "与手、动作、操作有关",
-      "meaning_en": "Related to hand, actions",
-      "examples": [
-        "手",
-        "打",
-        "拍",
-        "拿",
-        "放",
-        "推",
-        "拉",
-        "提"
-      ],
-      "emoji": "✋"
-    },
-    {
-      "id": "r9",
-      "char": "心",
-      "name": "心字底",
-      "name_en": "Heart radical",
-      "meaning": "与心情、情感、思想有关",
-      "meaning_en": "Related to feelings, thoughts",
-      "examples": [
-        "心",
-        "爱",
-        "想",
-        "思",
-        "念",
-        "忘",
-        "怕",
-        "急"
-      ],
-      "emoji": "💗"
-    },
-    {
-      "id": "r10",
-      "char": "目",
-      "name": "目字旁",
-      "name_en": "Eye radical",
-      "meaning": "与眼睛、看、观察有关",
-      "meaning_en": "Related to eyes, seeing",
-      "examples": [
-        "目",
-        "看",
-        "见",
-        "眼",
-        "睛",
-        "眨",
-        "盯",
-        "盯"
-      ],
-      "emoji": "👁️"
-    },
-    {
-      "id": "r11",
-      "char": "女",
-      "name": "女字旁",
-      "name_en": "Woman radical",
-      "meaning": "与女性、家庭有关",
-      "meaning_en": "Related to women, family",
-      "examples": [
-        "女",
-        "妈",
-        "姐",
-        "妹",
-        "奶",
-        "她",
-        "好",
-        "姓"
-      ],
-      "emoji": "👩"
-    },
-    {
-      "id": "r12",
-      "char": "子",
-      "name": "子字旁",
-      "name_en": "Child radical",
-      "meaning": "与孩子、后代有关",
-      "meaning_en": "Related to children",
-      "examples": [
-        "子",
-        "孩",
-        "孙",
-        "学",
-        "字",
-        "好",
-        "孔",
-        "孩"
-      ],
-      "emoji": "👶"
-    },
-    {
-      "id": "r13",
-      "char": "山",
-      "name": "山字旁",
-      "name_en": "Mountain radical",
-      "meaning": "与山、高地有关",
-      "meaning_en": "Related to mountains",
-      "examples": [
-        "山",
-        "峰",
-        "岭",
-        "岩",
-        "崖",
-        "岛",
-        "崇",
-        "峡"
-      ],
-      "emoji": "⛰️"
-    },
-    {
-      "id": "r14",
-      "char": "土",
-      "name": "土字旁",
-      "name_en": "Earth radical",
-      "meaning": "与土地、建筑有关",
-      "meaning_en": "Related to earth, buildings",
+      "radical": "土",
+      "meaning": "土",
+      "pinyin": "tǔ",
       "examples": [
         "土",
         "地",
-        "场",
         "城",
-        "墙",
-        "塔",
-        "坡",
-        "埋"
-      ],
-      "emoji": "🌍"
+        "堆",
+        "坡"
+      ]
     },
     {
-      "id": "r15",
-      "char": "金",
-      "name": "金字旁",
-      "name_en": "Metal radical",
-      "meaning": "与金属、钱财有关",
-      "meaning_en": "Related to metal, money",
+      "radical": "山",
+      "meaning": "山",
+      "pinyin": "shān",
       "examples": [
-        "金",
-        "钱",
-        "银",
-        "铁",
-        "铜",
-        "钢",
-        "针",
-        "铃"
-      ],
-      "emoji": "🪙"
+        "山",
+        "出",
+        "岁",
+        "峰",
+        "岭"
+      ]
     },
     {
-      "id": "r16",
-      "char": "草",
-      "name": "草字头",
-      "name_en": "Grass radical",
-      "meaning": "与花草、植物有关",
-      "meaning_en": "Related to plants, flowers",
+      "radical": "石",
+      "meaning": "石",
+      "pinyin": "shí",
+      "examples": [
+        "石",
+        "破",
+        "矿",
+        "码",
+        "硬"
+      ]
+    },
+    {
+      "radical": "木",
+      "meaning": "木",
+      "pinyin": "mù",
+      "examples": [
+        "木",
+        "林",
+        "森",
+        "树",
+        "村"
+      ]
+    },
+    {
+      "radical": "艹",
+      "meaning": "草字头",
+      "pinyin": "cǎo",
       "examples": [
         "草",
         "花",
         "菜",
-        "茶",
-        "药",
-        "苗",
-        "叶",
-        "芳"
-      ],
-      "emoji": "🌿"
+        "蓝",
+        "苦"
+      ]
     },
     {
-      "id": "r17",
-      "char": "虫",
-      "name": "虫字旁",
-      "name_en": "Insect radical",
-      "meaning": "与昆虫、小动物有关",
-      "meaning_en": "Related to insects",
+      "radical": "竹",
+      "meaning": "竹字头",
+      "pinyin": "zhú",
       "examples": [
-        "虫",
-        "蚁",
-        "蜂",
-        "蝶",
-        "蚊",
-        "蝇",
-        "蛇",
-        "蛙"
-      ],
-      "emoji": "🐛"
+        "笑",
+        "笔",
+        "答",
+        "等",
+        "第"
+      ]
     },
     {
-      "id": "r18",
-      "char": "鸟",
-      "name": "鸟字旁",
-      "name_en": "Bird radical",
-      "meaning": "与鸟类、飞翔有关",
-      "meaning_en": "Related to birds, flying",
+      "radical": "亻",
+      "meaning": "单人旁",
+      "pinyin": "rén",
       "examples": [
-        "鸟",
-        "鸡",
-        "鸭",
-        "鹅",
-        "鸽",
-        "鸦",
-        "鹰",
-        "雀"
-      ],
-      "emoji": "🐦"
+        "他",
+        "你",
+        "们",
+        "什",
+        "住"
+      ]
     },
     {
-      "id": "r19",
-      "char": "鱼",
-      "name": "鱼字旁",
-      "name_en": "Fish radical",
-      "meaning": "与鱼类、水生动物有关",
-      "meaning_en": "Related to fish",
+      "radical": "女",
+      "meaning": "女字旁",
+      "pinyin": "nǚ",
       "examples": [
-        "鱼",
-        "虾",
-        "蟹",
-        "鲸",
-        "鲨",
-        "鲜",
-        "鲁",
-        "鲁"
-      ],
-      "emoji": "🐟"
+        "女",
+        "妈",
+        "好",
+        "她",
+        "姓"
+      ]
     },
     {
-      "id": "r20",
-      "char": "马",
-      "name": "马字旁",
-      "name_en": "Horse radical",
-      "meaning": "与马、奔跑有关",
-      "meaning_en": "Related to horses, running",
+      "radical": "子",
+      "meaning": "子字旁",
+      "pinyin": "zǐ",
       "examples": [
-        "马",
-        "骑",
-        "驾",
-        "骏",
-        "驰",
-        "驴",
-        "骡",
-        "腾"
-      ],
-      "emoji": "🐴"
+        "子",
+        "学",
+        "孩",
+        "字",
+        "孙"
+      ]
     }
   ],
   "idioms": [
     {
-      "id": "i1",
       "idiom": "一心一意",
       "pinyin": "yī xīn yī yì",
-      "meaning": "专心致志，全心全意",
-      "meaning_en": "Wholeheartedly, with single-minded focus",
-      "story": "小明一心一意地画画，终于画出了美丽的彩虹。",
-      "story_en": "Xiao Ming painted wholeheartedly and finally created a beautiful rainbow.",
-      "chars": [
-        "一",
-        "心",
-        "意"
-      ],
-      "emoji": "🎯"
+      "meaning": "专心致志，只有一个心思",
+      "story": "做事情要一心一意，不能三心二意。"
     },
     {
-      "id": "i2",
-      "idiom": "日月如梭",
-      "pinyin": "rì yuè rú suō",
-      "meaning": "时间过得很快",
-      "meaning_en": "Time flies like a shuttle",
-      "story": "日月如梭，转眼间小朋友们都长大了。",
-      "story_en": "Time flies, and in a blink the children have grown up.",
-      "chars": [
-        "日",
-        "月"
-      ],
-      "emoji": "⏰"
+      "idiom": "三心二意",
+      "pinyin": "sān xīn èr yì",
+      "meaning": "心思不专一，犹豫不决",
+      "story": "小猫钓鱼三心二意，结果一条鱼也没钓到。"
     },
     {
-      "id": "i3",
-      "idiom": "山清水秀",
-      "pinyin": "shān qīng shuǐ xiù",
-      "meaning": "风景美丽",
-      "meaning_en": "Beautiful scenery with clear water and green mountains",
-      "story": "这里的山清水秀，小鸟在树林里唱歌。",
-      "story_en": "The scenery here is beautiful, birds sing in the forest.",
-      "chars": [
-        "山",
-        "水",
-        "清"
-      ],
-      "emoji": "🏞️"
+      "idiom": "五颜六色",
+      "pinyin": "wǔ yán liù sè",
+      "meaning": "形容色彩丰富多样",
+      "story": "春天来了，花园里开着五颜六色的花朵。"
     },
     {
-      "id": "i4",
-      "idiom": "风和日丽",
-      "pinyin": "fēng hé rì lì",
-      "meaning": "天气晴朗温和",
-      "meaning_en": "Gentle wind and beautiful sunshine",
-      "story": "今天风和日丽，我们去公园玩吧！",
-      "story_en": "Today is sunny and breezy, let's go to the park!",
-      "chars": [
-        "风",
-        "日"
-      ],
-      "emoji": "🌤️"
+      "idiom": "七上八下",
+      "pinyin": "qī shàng bā xià",
+      "meaning": "形容心里慌乱不安",
+      "story": "考试前，小明心里七上八下的。"
     },
     {
-      "id": "i5",
-      "idiom": "鸟语花香",
-      "pinyin": "niǎo yǔ huā xiāng",
-      "meaning": "春天美好的景象",
-      "meaning_en": "Birds singing and flowers fragrant",
-      "story": "春天来了，鸟语花香，到处都是美丽的景色。",
-      "story_en": "Spring is here, birds sing and flowers bloom beautifully.",
-      "chars": [
-        "鸟",
-        "花"
-      ],
-      "emoji": "🌸"
+      "idiom": "九牛一毛",
+      "pinyin": "jiǔ niú yī máo",
+      "meaning": "比喻数量极少，微不足道",
+      "story": "这点钱对他来说，简直是九牛一毛。"
     },
     {
-      "id": "i6",
-      "idiom": "手舞足蹈",
-      "pinyin": "shǒu wǔ zú dǎo",
-      "meaning": "高兴得手脚都动起来",
-      "meaning_en": "Dancing with joy, very happy",
-      "story": "收到礼物，小朋友手舞足蹈，开心极了！",
-      "story_en": "Receiving the gift, the child danced with joy!",
-      "chars": [
-        "手",
-        "足"
-      ],
-      "emoji": "💃"
+      "idiom": "十全十美",
+      "pinyin": "shí quán shí měi",
+      "meaning": "十分完美，没有缺陷",
+      "story": "世界上没有十全十美的事物。"
     },
     {
-      "id": "i7",
-      "idiom": "心花怒放",
-      "pinyin": "xīn huā nù fàng",
-      "meaning": "非常高兴",
-      "meaning_en": "Overjoyed, heart bursting with happiness",
-      "story": "考试得了满分，小明心花怒放。",
-      "story_en": "Getting full marks, Xiao Ming was overjoyed.",
-      "chars": [
-        "心",
-        "花"
-      ],
-      "emoji": "💐"
+      "idiom": "画蛇添足",
+      "pinyin": "huà shé tiān zú",
+      "meaning": "做多余的事，反而不恰当",
+      "story": "已经很好了，不要再画蛇添足了。"
     },
     {
-      "id": "i8",
-      "idiom": "马到成功",
-      "pinyin": "mǎ dào chéng gōng",
-      "meaning": "一开始就成功",
-      "meaning_en": "Success immediately upon arrival",
-      "story": "祝你马到成功，考试顺利！",
-      "story_en": "Wish you immediate success in your exam!",
-      "chars": [
-        "马",
-        "成"
-      ],
-      "emoji": "🏆"
+      "idiom": "对牛弹琴",
+      "pinyin": "duì niú tán qín",
+      "meaning": "对不懂道理的人讲道理",
+      "story": "跟他说这个，简直是对牛弹琴。"
     },
     {
-      "id": "i9",
-      "idiom": "鱼跃龙门",
-      "pinyin": "yú yuè lóng mén",
-      "meaning": "比喻成功飞跃",
-      "meaning_en": "Success through hard work, like a fish leaping over the dragon gate",
-      "story": "努力学习，就能鱼跃龙门，考上好学校！",
-      "story_en": "Study hard and you can succeed like a fish leaping over the dragon gate!",
-      "chars": [
-        "鱼",
-        "龙"
-      ],
-      "emoji": "🐟"
+      "idiom": "井底之蛙",
+      "pinyin": "jǐng dǐ zhī wā",
+      "meaning": "比喻眼界狭窄的人",
+      "story": "不要做井底之蛙，要多出去看看。"
     },
     {
-      "id": "i10",
-      "idiom": "火上浇油",
-      "pinyin": "huǒ shàng jiāo yóu",
-      "meaning": "让事情变得更糟",
-      "meaning_en": "Adding fuel to the fire, making things worse",
-      "story": "吵架时不要火上浇油，要冷静说话。",
-      "story_en": "Don't add fuel to the fire when arguing, speak calmly.",
-      "chars": [
-        "火",
-        "油"
-      ],
-      "emoji": "🔥"
+      "idiom": "亡羊补牢",
+      "pinyin": "wáng yáng bǔ láo",
+      "meaning": "出了问题及时补救",
+      "story": "亡羊补牢，为时不晚。"
     },
     {
-      "id": "i11",
-      "idiom": "水滴石穿",
-      "pinyin": "shuǐ dī shí chuān",
-      "meaning": "坚持不懈就能成功",
-      "meaning_en": "Persistence leads to success, like water drops piercing stone",
-      "story": "水滴石穿，每天学一点，就能学会很多汉字！",
-      "story_en": "Like water drops piercing stone, learning a little each day leads to mastery!",
-      "chars": [
-        "水",
-        "石"
-      ],
-      "emoji": "💧"
+      "idiom": "守株待兔",
+      "pinyin": "shǒu zhū dài tù",
+      "meaning": "比喻不主动努力",
+      "story": "不要守株待兔，要主动争取。"
     },
     {
-      "id": "i12",
-      "idiom": "木已成舟",
-      "pinyin": "mù yǐ chéng zhōu",
-      "meaning": "事情已经发生，无法改变",
-      "meaning_en": "The wood has become a boat, things cannot be changed",
-      "story": "木已成舟，我们要接受结果，继续努力。",
-      "story_en": "What's done is done, we must accept and continue working hard.",
-      "chars": [
-        "木",
-        "舟"
-      ],
-      "emoji": "🚣"
+      "idiom": "掩耳盗铃",
+      "pinyin": "yǎn ěr dào líng",
+      "meaning": "自欺欺人",
+      "story": "这种做法就是掩耳盗铃。"
     },
     {
-      "id": "i13",
-      "idiom": "人山人海",
-      "pinyin": "rén shān rén hǎi",
-      "meaning": "人非常多",
-      "meaning_en": "A sea of people, very crowded",
-      "story": "节日时公园里人山人海，热闹极了！",
-      "story_en": "During festivals, the park is crowded with people!",
-      "chars": [
-        "人",
-        "山",
-        "海"
-      ],
-      "emoji": "👥"
+      "idiom": "拔苗助长",
+      "pinyin": "bá miáo zhù zhǎng",
+      "meaning": "急于求成，反而坏事",
+      "story": "学习不能拔苗助长，要循序渐进。"
     },
     {
-      "id": "i14",
-      "idiom": "口若悬河",
-      "pinyin": "kǒu ruò xuán hé",
-      "meaning": "说话滔滔不绝",
-      "meaning_en": "Speaking endlessly like a flowing river",
-      "story": "老师口若悬河，讲课生动有趣。",
-      "story_en": "The teacher speaks fluently, making lessons interesting.",
-      "chars": [
-        "口",
-        "河"
-      ],
-      "emoji": "🗣️"
+      "idiom": "刻舟求剑",
+      "pinyin": "kè zhōu qiú jiàn",
+      "meaning": "拘泥固执，不知变通",
+      "story": "情况变了，不能再刻舟求剑了。"
     },
     {
-      "id": "i15",
-      "idiom": "目不转睛",
-      "pinyin": "mù bù zhuǎn jīng",
-      "meaning": "专心地看着",
-      "meaning_en": "Staring intently without blinking",
-      "story": "小朋友目不转睛地看着动画片。",
-      "story_en": "The child stared intently at the cartoon.",
-      "chars": [
-        "目",
-        "转"
-      ],
-      "emoji": "👀"
+      "idiom": "画龙点睛",
+      "pinyin": "huà lóng diǎn jīng",
+      "meaning": "关键处加一笔，使效果更好",
+      "story": "这篇文章的结尾真是画龙点睛！"
     },
     {
-      "id": "i16",
-      "idiom": "花好月圆",
-      "pinyin": "huā hǎo yuè yuán",
-      "meaning": "美好的景象，团圆",
-      "meaning_en": "Beautiful flowers and full moon, perfect happiness",
-      "story": "中秋节花好月圆，家人团聚真开心！",
-      "story_en": "Mid-Autumn Festival brings beautiful flowers and full moon, family reunion is joyful!",
-      "chars": [
-        "花",
-        "月"
-      ],
-      "emoji": "🌕"
+      "idiom": "叶公好龙",
+      "pinyin": "yè gōng hào lóng",
+      "meaning": "表面爱好，实际害怕",
+      "story": "他只是叶公好龙，并不是真的喜欢。"
     },
     {
-      "id": "i17",
-      "idiom": "风调雨顺",
-      "pinyin": "fēng tiáo yǔ shùn",
-      "meaning": "天气好，适合农作物生长",
-      "meaning_en": "Good weather for crops, favorable conditions",
-      "story": "今年风调雨顺，农民伯伯很高兴。",
-      "story_en": "This year has good weather, the farmers are happy.",
-      "chars": [
-        "风",
-        "雨"
-      ],
-      "emoji": "🌾"
+      "idiom": "惊弓之鸟",
+      "pinyin": "jīng gōng zhī niǎo",
+      "meaning": "受过惊吓后容易惊慌",
+      "story": "他现在像惊弓之鸟一样，一点声音都害怕。"
     },
     {
-      "id": "i18",
-      "idiom": "云开雾散",
-      "pinyin": "yún kāi wù sàn",
-      "meaning": "困难过去，情况好转",
-      "meaning_en": "Clouds clear and fog disperses, problems resolved",
-      "story": "经过努力，云开雾散，问题解决了！",
-      "story_en": "After hard work, the clouds cleared and problems were solved!",
-      "chars": [
-        "云",
-        "雾"
-      ],
-      "emoji": "🌤️"
+      "idiom": "杯弓蛇影",
+      "pinyin": "bēi gōng shé yǐng",
+      "meaning": "疑神疑鬼，自相惊扰",
+      "story": "别杯弓蛇影了，那只是一根绳子。"
     },
     {
-      "id": "i19",
-      "idiom": "春暖花开",
-      "pinyin": "chūn nuǎn huā kāi",
-      "meaning": "春天温暖，花儿开放",
-      "meaning_en": "Spring warmth and flowers blooming",
-      "story": "春暖花开，我们去郊游吧！",
-      "story_en": "Spring is warm and flowers bloom, let's go on a trip!",
-      "chars": [
-        "春",
-        "花",
-        "暖"
-      ],
-      "emoji": "🌷"
+      "idiom": "狐假虎威",
+      "pinyin": "hú jiǎ hǔ wēi",
+      "meaning": "依仗别人的势力欺压人",
+      "story": "他只是狐假虎威，没什么了不起。"
     },
     {
-      "id": "i20",
-      "idiom": "秋高气爽",
-      "pinyin": "qiū gāo qì shuǎng",
-      "meaning": "秋天天气凉爽",
-      "meaning_en": "Cool and refreshing autumn weather",
-      "story": "秋高气爽，天空特别蓝！",
-      "story_en": "Autumn is cool and refreshing, the sky is especially blue!",
-      "chars": [
-        "秋",
-        "气"
-      ],
-      "emoji": "🍂"
+      "idiom": "鹬蚌相争",
+      "pinyin": "yù bàng xiāng zhēng",
+      "meaning": "双方相争，两败俱伤",
+      "story": "你们别鹬蚌相争，让别人得利。"
+    },
+    {
+      "idiom": "塞翁失马",
+      "pinyin": "sài wēng shī mǎ",
+      "meaning": "坏事可能变成好事",
+      "story": "塞翁失马，焉知非福。"
+    },
+    {
+      "idiom": "亡羊补牢",
+      "pinyin": "wáng yáng bǔ láo",
+      "meaning": "出了问题及时补救",
+      "story": "现在补救还来得及，亡羊补牢。"
+    },
+    {
+      "idiom": "愚公移山",
+      "pinyin": "yú gōng yí shān",
+      "meaning": "坚持不懈，终能成功",
+      "story": "只要有愚公移山的精神，就能成功。"
+    },
+    {
+      "idiom": "夸父逐日",
+      "pinyin": "kuā fù zhú rì",
+      "meaning": "比喻有宏大的志向",
+      "story": "我们要有夸父逐日的勇气。"
+    },
+    {
+      "idiom": "精卫填海",
+      "pinyin": "jīng wèi tián hǎi",
+      "meaning": "坚持不懈的精神",
+      "story": "精卫填海的精神值得我们学习。"
     }
   ],
   "levels": [
     {
-      "id": "beginner",
-      "name": "启蒙",
-      "name_en": "Beginner",
-      "desc": "适合3-4岁，每天1-2字",
-      "desc_en": "For 3-4 years, 1-2 chars daily",
+      "id": 1,
+      "name": "初识汉字",
+      "description": "学习最基础的汉字",
       "char_indices": [
         0,
         1,
         2,
         3,
         4,
-        5,
+        5
+      ],
+      "required_score": 0
+    },
+    {
+      "id": 2,
+      "name": "自然万物",
+      "description": "认识大自然中的事物",
+      "char_indices": [
         6,
         7,
         8,
-        9
-      ]
+        9,
+        10,
+        11
+      ],
+      "required_score": 50
     },
     {
-      "id": "basic",
-      "name": "基础",
-      "name_en": "Basic",
-      "desc": "适合4-5岁，每天3-4字",
-      "desc_en": "For 4-5 years, 3-4 chars daily",
+      "id": 3,
+      "name": "植物王国",
+      "description": "了解花草树木",
       "char_indices": [
-        10,
-        11,
         12,
         13,
         14,
         15,
-        16,
-        17,
-        18,
-        19
-      ]
+        16
+      ],
+      "required_score": 120
     },
     {
-      "id": "intermediate",
-      "name": "进阶",
-      "name_en": "Intermediate",
-      "desc": "适合5-6岁，每天5-6字",
-      "desc_en": "For 5-6 years, 5-6 chars daily",
+      "id": 4,
+      "name": "动物乐园",
+      "description": "认识可爱的动物",
       "char_indices": [
+        17,
+        18,
+        19,
         20,
         21,
         22,
-        23,
+        23
+      ],
+      "required_score": 200
+    },
+    {
+      "id": 5,
+      "name": "身体部位",
+      "description": "了解我们的身体",
+      "char_indices": [
         24,
         25,
         26,
         27,
         28,
-        29
-      ]
+        29,
+        30
+      ],
+      "required_score": 300
     },
     {
-      "id": "advanced",
-      "name": "高级",
-      "name_en": "Advanced",
-      "desc": "适合6-7岁，每天8-10字",
-      "desc_en": "For 6-7 years, 8-10 chars daily",
+      "id": 6,
+      "name": "数字世界",
+      "description": "学习数字",
       "char_indices": [
-        30,
         31,
         32,
         33,
@@ -3407,13 +3484,195 @@
         36,
         37,
         38,
-        39
-      ]
+        39,
+        40
+      ],
+      "required_score": 420
+    },
+    {
+      "id": 7,
+      "name": "方向方位",
+      "description": "认识方向和位置",
+      "char_indices": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "required_score": 550
+    },
+    {
+      "id": 8,
+      "name": "人称代词",
+      "description": "学习人称",
+      "char_indices": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "required_score": 700
+    },
+    {
+      "id": 9,
+      "name": "动作表情",
+      "description": "认识动作和情感",
+      "char_indices": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "required_score": 870
+    },
+    {
+      "id": 10,
+      "name": "食物颜色",
+      "description": "认识食物和颜色",
+      "char_indices": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "required_score": 1050
+    },
+    {
+      "id": 11,
+      "name": "学习生活",
+      "description": "学习和生活相关的字",
+      "char_indices": [
+        76,
+        77,
+        78
+      ],
+      "required_score": 1250
     }
   ],
-  "version": "2.0",
-  "total_chars": 81,
-  "total_stories": 8,
-  "total_radicals": 20,
-  "total_idioms": 20
+  "achievements": [
+    {
+      "id": 1,
+      "name": "识字新手",
+      "description": "认识第一个汉字",
+      "icon": "🌟",
+      "condition": "learn_count >= 1"
+    },
+    {
+      "id": 2,
+      "name": "小小书童",
+      "description": "认识10个汉字",
+      "icon": "📚",
+      "condition": "learn_count >= 10"
+    },
+    {
+      "id": 3,
+      "name": "汉字小达人",
+      "description": "认识50个汉字",
+      "icon": "🏆",
+      "condition": "learn_count >= 50"
+    },
+    {
+      "id": 4,
+      "name": "识字冠军",
+      "description": "认识所有汉字",
+      "icon": "👑",
+      "condition": "learn_count >= 81"
+    },
+    {
+      "id": 5,
+      "name": "学习之星",
+      "description": "连续学习7天",
+      "icon": "⭐",
+      "condition": "streak_days >= 7"
+    },
+    {
+      "id": 6,
+      "name": "坚持不懈",
+      "description": "连续学习30天",
+      "icon": "🔥",
+      "condition": "streak_days >= 30"
+    },
+    {
+      "id": 7,
+      "name": "故事大王",
+      "description": "读完5个故事",
+      "icon": "📖",
+      "condition": "stories_read >= 5"
+    },
+    {
+      "id": 8,
+      "name": "阅读小能手",
+      "description": "读完所有故事",
+      "icon": "📚",
+      "condition": "stories_read >= 12"
+    },
+    {
+      "id": 9,
+      "name": "拼音高手",
+      "description": "拼音测验得满分",
+      "icon": "🎯",
+      "condition": "perfect_pinyin_test >= 1"
+    },
+    {
+      "id": 10,
+      "name": "组词小天才",
+      "description": "成功组词100次",
+      "icon": "✨",
+      "condition": "word_matches >= 100"
+    },
+    {
+      "id": 11,
+      "name": "闯关勇士",
+      "description": "通过第一关",
+      "icon": "⚔️",
+      "condition": "level_passed >= 1"
+    },
+    {
+      "id": 12,
+      "name": "关卡霸主",
+      "description": "通过所有关卡",
+      "icon": "👑",
+      "condition": "level_passed >= 11"
+    },
+    {
+      "id": 13,
+      "name": "复习达人",
+      "description": "完成100次复习",
+      "icon": "🔄",
+      "condition": "review_count >= 100"
+    },
+    {
+      "id": 14,
+      "name": "学习标兵",
+      "description": "获得1000颗星星",
+      "icon": "⭐",
+      "condition": "stars >= 1000"
+    },
+    {
+      "id": 15,
+      "name": "全能学霸",
+      "description": "获得所有成就",
+      "icon": "🏅",
+      "condition": "achievements_unlocked >= 14"
+    }
+  ]
 }

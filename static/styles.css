@@ -434,6 +434,333 @@ html, body {
 .page-enter { animation: slideIn 0.4s ease; }
 @keyframes slideIn { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: none;} }
 
+/* ---------- AI 学伴气泡 ---------- */
+.companion-bubble {
+  display: flex; align-items: center; gap: 14px;
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 18px; padding: 14px 20px; margin-bottom: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  animation: popIn 0.35s ease;
+}
+.companion-avatar {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: linear-gradient(135deg, #FF6B9D, #FFD93D);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px;
+}
+.companion-msg { font-size: 15px; color: #2C3E50; font-weight: 600; line-height: 1.6; }
+.companion-bubble.encourage { background: linear-gradient(135deg, #E6FFFA, #B2F5EA); }
+.companion-bubble.celebrate { background: linear-gradient(135deg, #FFE4F0, #FFD93D); }
+
+/* ---------- 今日进度卡片 ---------- */
+.daily-progress-card {
+  background: white; border-radius: 24px; padding: 22px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  margin-bottom: 22px; position: relative; overflow: hidden;
+}
+.daily-progress-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 80px;
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  opacity: 0.6;
+}
+.daily-progress-card.complete::before {
+  background: linear-gradient(135deg, #E6FFFA, #B2F5EA);
+}
+.daily-header { display: flex; align-items: center; gap: 16px; position: relative; }
+.daily-emoji { font-size: 48px; }
+.daily-info { flex: 1; }
+.daily-title { font-size: 14px; color: #8B8BA7; font-weight: 600; }
+.daily-num { font-size: 32px; font-weight: 900; color: #2C3E50; line-height: 1; }
+.daily-bar {
+  height: 12px; background: #F7F9FC; border-radius: 99px;
+  margin: 14px 0; overflow: hidden;
+}
+.daily-bar-fill {
+  height: 100%; background: linear-gradient(90deg, #FF6B9D, #FFD93D, #4ECDC4);
+  border-radius: 99px; transition: width 0.5s ease;
+}
+.daily-status { font-size: 13px; color: #5B5196; font-weight: 600; position: relative; }
+
+/* ---------- 今日汉字卡片 ---------- */
+.today-section, .review-section, .level-section {
+  margin-bottom: 22px;
+}
+.today-section h3, .review-section h3, .level-section h3 {
+  font-size: 18px; font-weight: 800; color: #2C3E50;
+  margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+}
+.today-chars, .review-chars {
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.today-char-card, .review-char-card {
+  background: white; border-radius: 18px; padding: 16px;
+  text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  cursor: pointer; transition: all 0.2s; min-width: 100px;
+}
+.today-char-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+.char-emoji { font-size: 32px; margin-bottom: 4px; }
+.char-main { font-size: 28px; font-weight: 900; color: #2C3E50; }
+.char-pinyin { font-size: 14px; color: #FF6B9D; font-weight: 700; margin-top: 4px; }
+.review-char-card.learned { background: linear-gradient(135deg, #E6FFFA, white); border: 2px solid #4ECDC4; }
+.review-char-card .check-mark {
+  position: absolute; top: 8px; right: 8px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: #4ECDC4; color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px;
+}
+
+/* ---------- 学习等级卡片 ---------- */
+.level-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+.level-card {
+  background: white; border-radius: 18px; padding: 18px;
+  text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  cursor: pointer; transition: all 0.2s;
+}
+.level-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); border: 2px solid #FFD93D; }
+.level-emoji { font-size: 36px; margin-bottom: 8px; }
+.level-name { font-size: 16px; font-weight: 800; color: #2C3E50; }
+.level-desc { font-size: 12px; color: #8B8BA7; margin-top: 6px; }
+
+/* ---------- 五步学习页面 ---------- */
+.five-step-page {
+  background: white; border-radius: 28px; padding: 28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.step-progress { margin-bottom: 22px; }
+.step-bar {
+  height: 8px; background: #F7F9FC; border-radius: 99px;
+  overflow: hidden; margin-bottom: 14px;
+}
+.step-bar-fill {
+  height: 100%; background: linear-gradient(90deg, #FF6B9D, #FFD93D, #4ECDC4);
+  border-radius: 99px; transition: width 0.5s ease;
+}
+.step-indicators { display: flex; gap: 8px; justify-content: space-between; }
+.step-indicator {
+  display: flex; flex-direction: column; align-items: center;
+  opacity: 0.5; transition: all 0.2s;
+}
+.step-indicator.active { opacity: 1; }
+.step-indicator.current .step-num {
+  background: linear-gradient(135deg, #FF6B9D, #FFD93D);
+  color: white;
+}
+.step-num {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: #E0E8FF; color: #5B5196;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; margin-bottom: 4px;
+}
+.step-label { font-size: 11px; color: #8B8BA7; font-weight: 600; }
+
+/* ---------- 当前汉字展示 ---------- */
+.current-char-hero {
+  text-align: center; padding: 28px;
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 24px; margin-bottom: 18px;
+}
+.hero-emoji { font-size: 48px; margin-bottom: 8px; }
+.hero-char { font-size: 80px; font-weight: 900; color: #2C3E50; line-height: 1; }
+.hero-pinyin { font-size: 24px; color: #FF6B9D; font-weight: 800; letter-spacing: 2px; margin-top: 6px; }
+.hero-english { font-size: 14px; color: #8B8BA7; font-weight: 600; margin-top: 4px; }
+.step-desc { text-align: center; font-size: 15px; color: #5B5196; font-weight: 600; margin-bottom: 18px; }
+.step-content { margin-bottom: 22px; }
+.step-nav { display: flex; gap: 14px; justify-content: center; }
+
+/* ---------- 配对游戏 ---------- */
+.play-game { text-align: center; }
+.play-game h3 { font-size: 18px; font-weight: 800; color: #2C3E50; margin-bottom: 8px; }
+.play-game p { font-size: 14px; color: #8B8BA7; margin-bottom: 18px; }
+.match-target {
+  background: linear-gradient(135deg, #E8F4FF, #FFFBE6);
+  border-radius: 18px; padding: 18px; margin-bottom: 18px;
+}
+.target-pinyin { font-size: 32px; font-weight: 800; color: #FF6B9D; }
+.target-hint { font-size: 14px; color: #5B5196; margin-top: 8px; }
+.match-options { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.match-option {
+  background: white; border: 3px solid #E0E8FF;
+  border-radius: 18px; padding: 18px; min-width: 100px;
+  cursor: pointer; transition: all 0.2s;
+}
+.match-option:hover { border-color: #5B8DEF; transform: translateY(-3px); }
+.match-option.correct { border-color: #4ECDC4; background: #E6FFFA; }
+.match-option.wrong { border-color: #FF6B6B; background: #FFE4E4; }
+.opt-emoji { font-size: 28px; margin-bottom: 6px; }
+.opt-char { font-size: 24px; font-weight: 900; color: #2C3E50; }
+.game-feedback { padding: 14px; border-radius: 14px; font-weight: 700; margin-top: 14px; }
+.game-feedback.success { background: #E6FFFA; color: #2F855A; }
+.game-feedback.fail { background: #FFE4E4; color: #C53030; }
+
+/* ---------- 字源演变 ---------- */
+.recognize-origin { text-align: center; }
+.recognize-origin h3 { font-size: 18px; font-weight: 800; color: #2C3E50; margin-bottom: 8px; }
+.origin-evolution {
+  display: flex; align-items: center; justify-content: center;
+  gap: 18px; margin: 22px 0; flex-wrap: wrap;
+}
+.origin-stage {
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 18px; padding: 18px; min-width: 120px;
+}
+.origin-label { font-size: 12px; color: #8B8BA7; font-weight: 600; margin-bottom: 8px; }
+.origin-char { font-size: 48px; font-weight: 900; color: #2C3E50; }
+.origin-char.oracle { font-family: 'KaiTi', 'STKaiti', serif; }
+.origin-char.seal { font-family: 'FangSong', 'STFangsong', serif; }
+.origin-arrow { font-size: 24px; color: #FFD93D; }
+.origin-meaning {
+  display: flex; align-items: center; gap: 12px;
+  background: linear-gradient(135deg, #E8F4FF, #FFFBE6);
+  border-radius: 14px; padding: 14px 18px; margin-top: 18px;
+}
+.meaning-icon { font-size: 24px; }
+.meaning-text { font-size: 14px; color: #2C3E50; line-height: 1.6; }
+
+/* ---------- 练习拼音 ---------- */
+.practice-pinyin { text-align: center; }
+.practice-main {
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 24px; padding: 28px; margin-bottom: 18px;
+}
+.practice-char { font-size: 64px; font-weight: 900; color: #2C3E50; }
+.practice-pinyin-big { font-size: 28px; color: #FF6B9D; font-weight: 800; letter-spacing: 3px; margin-top: 8px; }
+.practice-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
+.btn-large { padding: 14px 28px; font-size: 16px; }
+.practice-words { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.practice-word {
+  background: white; border-radius: 14px; padding: 14px;
+  cursor: pointer; transition: all 0.2s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.practice-word:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,0.1); }
+.word-text { font-size: 18px; font-weight: 900; color: #2C3E50; }
+.word-pinyin { font-size: 12px; color: #FF6B9D; font-weight: 700; margin-top: 4px; }
+.word-english { font-size: 11px; color: #8B8BA7; margin-top: 2px; }
+
+/* ---------- 笔顺动画 ---------- */
+.write-strokes { text-align: center; }
+.write-strokes h3 { font-size: 18px; font-weight: 800; color: #2C3E50; margin-bottom: 8px; }
+.stroke-info { display: flex; gap: 18px; justify-content: center; margin-bottom: 18px; font-size: 14px; color: #5B5196; font-weight: 600; }
+.stroke-animation { margin-bottom: 18px; }
+.stroke-grid {
+  width: 180px; height: 180px; margin: 0 auto;
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 18px; display: flex; align-items: center; justify-content: center;
+  border: 3px solid #FFD93D;
+}
+.stroke-char { font-size: 100px; font-weight: 900; color: #2C3E50; }
+.stroke-controls { display: flex; gap: 12px; justify-content: center; margin-top: 14px; }
+.stroke-list { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-bottom: 18px; }
+.stroke-item {
+  background: #F7F9FC; padding: 6px 12px; border-radius: 99px;
+  font-size: 12px; color: #5B5196; font-weight: 600;
+}
+
+/* ---------- 测验步骤 ---------- */
+.test-quiz { text-align: center; }
+.test-question {
+  background: linear-gradient(135deg, #FFF8E7, #FFE4F0);
+  border-radius: 24px; padding: 28px; margin-bottom: 18px;
+}
+.test-char { font-size: 64px; font-weight: 900; color: #2C3E50; }
+.test-hint { font-size: 14px; color: #5B5196; margin-top: 8px; }
+.test-options { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; max-width: 400px; margin: 0 auto; }
+.test-option {
+  background: white; border: 3px solid #E0E8FF;
+  border-radius: 18px; padding: 18px; cursor: pointer;
+  transition: all 0.2s;
+}
+.test-option:hover { border-color: #5B8DEF; }
+.test-option.correct { border-color: #4ECDC4; background: #E6FFFA; }
+.test-option.wrong { border-color: #FF6B6B; background: #FFE4E4; }
+.test-feedback { padding: 14px; border-radius: 14px; font-weight: 700; margin-top: 14px; }
+.test-feedback.success { background: #E6FFFA; color: #2F855A; }
+.test-feedback.fail { background: #FFE4E4; color: #C53030; }
+
+/* ---------- 偏旁部首卡片 ---------- */
+.radicals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+.radical-card {
+  background: white; border-radius: 22px; padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08); cursor: pointer;
+  transition: all 0.2s; text-align: center;
+}
+.radical-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,0.12); }
+.radical-emoji { font-size: 36px; margin-bottom: 8px; }
+.radical-char { font-size: 32px; font-weight: 900; color: #2C3E50; }
+.radical-name { font-size: 14px; color: #FF6B9D; font-weight: 700; margin-top: 6px; }
+.radical-meaning { font-size: 12px; color: #8B8BA7; margin-top: 8px; line-height: 1.5; }
+.radical-examples { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+.radical-example-char {
+  width: 36px; height: 36px; border-radius: 12px;
+  background: linear-gradient(135deg, #FFE4F0, #FFF8E7);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 900; color: #2C3E50;
+}
+.radical-modal-chars, .idiom-modal-chars, .story-modal-chars {
+  display: flex; gap: 12px; flex-wrap: wrap;
+}
+.radical-modal-char, .idiom-modal-char, .story-modal-char {
+  background: white; border-radius: 14px; padding: 12px;
+  cursor: pointer; transition: all 0.2s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  text-align: center; min-width: 80px;
+}
+.radical-modal-char:hover, .idiom-modal-char:hover, .story-modal-char:hover {
+  transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  border: 2px solid #FF6B9D;
+}
+
+/* ---------- 成语卡片 ---------- */
+.idioms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+.idiom-card {
+  background: white; border-radius: 22px; padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08); cursor: pointer;
+  transition: all 0.2s;
+}
+.idiom-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,0.12); }
+.idiom-emoji { font-size: 28px; margin-bottom: 8px; }
+.idiom-text { font-size: 22px; font-weight: 900; color: #2C3E50; }
+.idiom-pinyin { font-size: 12px; color: #FF6B9D; font-weight: 700; margin-top: 4px; }
+.idiom-meaning { font-size: 13px; color: #5B5196; margin-top: 8px; line-height: 1.5; }
+.idiom-chars { display: flex; gap: 6px; margin-top: 10px; }
+.idiom-char {
+  width: 32px; height: 32px; border-radius: 10px;
+  background: linear-gradient(135deg, #FFE4F0, #FFF8E7);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 900; color: #2C3E50;
+}
+.idiom-hero-emoji { font-size: 48px; margin-bottom: 8px; }
+.idiom-hero-text { font-size: 36px; font-weight: 900; color: white; }
+.idiom-hero-pinyin { font-size: 16px; opacity: 0.9; margin-top: 4px; }
+
+/* ---------- 弹窗中的偏旁/成语/故事汉字 ---------- */
+.radical-hero-emoji, .story-hero-emoji { font-size: 48px; margin-bottom: 8px; }
+.radical-hero-char { font-size: 64px; font-weight: 900; color: white; }
+.radical-hero-name { font-size: 18px; opacity: 0.95; margin-top: 4px; }
+.story-hero-title { font-size: 28px; font-weight: 900; color: white; }
+
+/* ---------- 加载错误 ---------- */
+.loading-error {
+  text-align: center; padding: 60px 30px;
+  background: white; border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.loading-emoji { font-size: 64px; margin-bottom: 18px; }
+.loading-text { font-size: 18px; color: #5B5196; font-weight: 600; }
+
+/* ---------- 空历史 ---------- */
+.empty-history {
+  text-align: center; padding: 28px;
+  background: white; border-radius: 18px;
+  color: #8B8BA7; font-weight: 600;
+}
+.history-section {
+  background: white; border-radius: 18px; padding: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+.history-section h3 { font-size: 16px; font-weight: 800; color: #2C3E50; margin-bottom: 12px; }
+
 /* ---------- 滚动条美化 ---------- */
 .modal::-webkit-scrollbar { width: 10px; }
 .modal::-webkit-scrollbar-thumb {
